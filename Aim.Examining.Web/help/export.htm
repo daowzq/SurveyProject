@@ -1,0 +1,28 @@
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<html>
+<head>
+
+    <script>
+        var WshShell = new ActiveXObject("WScript.Shell");
+        //添加信任站点ip
+        WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges\\Range100\\", "");
+        WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges\\Range100\\http", "2", "REG_DWORD");
+        WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges\\Range100\\:Range", "192.168.0.2");
+        WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges\\Range101\\", "");
+        WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\ZoneMap\\Ranges\\Range101\\http", "2", "REG_DWORD");
+        //修改IE ActiveX安全设置
+        WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1001", "0", "REG_DWORD");
+        WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1004", "0", "REG_DWORD");
+        WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1200", "0", "REG_DWORD");
+        WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1201", "0", "REG_DWORD");
+        WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\1405", "0", "REG_DWORD");
+        WshShell.RegWrite("HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings\\Zones\\3\\2201", "0", "REG_DWORD");
+        WshShell.RegWrite("HKCU\\Software\\Microsoft\\Internet Explorer\\New Windows\\PopupMgr", "no");
+        alert("active控件安全设置，弹出窗口设置，信任站点设置成功"); 
+    </script>
+
+</head>
+<body>
+    弹出浏览器对话框时,请点击允许.
+</body>
+</html>

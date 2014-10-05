@@ -1,0 +1,48 @@
+---------
+2014/1/7 16:37:39
+insert into FL_Recruitment..Remind
+                            (Id,Name,Phone,EmailAddress,RemindContent,RemindTime,SendType,Ext1,CreateTime,state,PhoneState,Title,MessageContent,UserId)
+                            values(newid(),'顾海疆','','benjamin_gu@feiliks.com',' <p><span style="text-transform: none; text-indent: 28px; letter-spacing: normal; display: inline !important; font: 14px/24px 'Times New Roman', SimSun, serif; white-space: normal; float: none; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-stroke-width: 0px">日方称，新修建的销毁处理设施不同于以往一次只能销毁几发的爆破处理设施，而将使用高温炉，采取将炮弹进行燃烧的方法。日本内阁官房有关部门表示：&ldquo;新设施建成后，有望能够大规模缩短处理作业所需要的时间。</span></p>
+                               <br/>打开此链接可直接填写问卷：<br/> http://localhost:8801/SurveyManage/InternetSurvey.aspx?Id=6e09850f-62a7-4813-afab-26e61feb13cc&uid=21b90e17-2b62-4e7d-95e4-3c6db86da73c&op=r </br>如不能打开此链接，请复制链接地址到浏览器中打开。</br>请勿回复此邮件!','2014-01-07 16:41:09',',Email','S|6e09850f-62a7-4813-afab-26e61feb13cc',getdate(),'0','','WGM我的测试一','','21b90e17-2b62-4e7d-95e4-3c6db86da73c')|   在 Aim.Data.DataHelper.ExecSql(String sqlString, IDbConnection conn)
+   在 Aim.Data.DataHelper.ExecSql(String sqlString)
+   在 Aim.Examining.Web.StartSurveyQuestion.SendNotice(DataTable dt, String NoticeType, String Title, String SurveyId, String StartTime, String EndTime, String DescRipt)
+---------
+2014/1/7 16:37:39
+insert into FL_Recruitment..Remind
+                            (Id,Name,Phone,EmailAddress,RemindContent,RemindTime,SendType,Ext1,CreateTime,state,PhoneState,Title,MessageContent,UserId)
+                            values(newid(),'李媛媛','','',' <p><span style="text-transform: none; text-indent: 28px; letter-spacing: normal; display: inline !important; font: 14px/24px 'Times New Roman', SimSun, serif; white-space: normal; float: none; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-stroke-width: 0px">日方称，新修建的销毁处理设施不同于以往一次只能销毁几发的爆破处理设施，而将使用高温炉，采取将炮弹进行燃烧的方法。日本内阁官房有关部门表示：&ldquo;新设施建成后，有望能够大规模缩短处理作业所需要的时间。</span></p>
+                               <br/>打开此链接可直接填写问卷：<br/> http://localhost:8801/SurveyManage/InternetSurvey.aspx?Id=6e09850f-62a7-4813-afab-26e61feb13cc&uid=5453ac7b-f246-419b-bcc3-f207c7c370b9&op=r </br>如不能打开此链接，请复制链接地址到浏览器中打开。</br>请勿回复此邮件!','2014-01-07 16:41:09',',Email','S|6e09850f-62a7-4813-afab-26e61feb13cc',getdate(),'0','','WGM我的测试一','','5453ac7b-f246-419b-bcc3-f207c7c370b9')|   在 Aim.Data.DataHelper.ExecSql(String sqlString, IDbConnection conn)
+   在 Aim.Data.DataHelper.ExecSql(String sqlString)
+   在 Aim.Examining.Web.StartSurveyQuestion.SendNotice(DataTable dt, String NoticeType, String Title, String SurveyId, String StartTime, String EndTime, String DescRipt)
+---------
+2014/1/7 16:37:39
+insert into FL_Recruitment..Remind
+                            (Id,Name,Phone,EmailAddress,RemindContent,RemindTime,SendType,Ext1,CreateTime,state,PhoneState,Title,MessageContent,UserId)
+                            values(newid(),'付贤君','15995625815','xianjun_fu@feiliks.com',' <p><span style="text-transform: none; text-indent: 28px; letter-spacing: normal; display: inline !important; font: 14px/24px 'Times New Roman', SimSun, serif; white-space: normal; float: none; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-stroke-width: 0px">日方称，新修建的销毁处理设施不同于以往一次只能销毁几发的爆破处理设施，而将使用高温炉，采取将炮弹进行燃烧的方法。日本内阁官房有关部门表示：&ldquo;新设施建成后，有望能够大规模缩短处理作业所需要的时间。</span></p>
+                               <br/>打开此链接可直接填写问卷：<br/> http://localhost:8801/SurveyManage/InternetSurvey.aspx?Id=6e09850f-62a7-4813-afab-26e61feb13cc&uid=6928ee62-4fc2-4ef1-9f6e-e0e4d9c79590&op=r </br>如不能打开此链接，请复制链接地址到浏览器中打开。</br>请勿回复此邮件!','2014-01-07 16:41:09',',Email','S|6e09850f-62a7-4813-afab-26e61feb13cc',getdate(),'0','','WGM我的测试一','','6928ee62-4fc2-4ef1-9f6e-e0e4d9c79590')|   在 Aim.Data.DataHelper.ExecSql(String sqlString, IDbConnection conn)
+   在 Aim.Data.DataHelper.ExecSql(String sqlString)
+   在 Aim.Examining.Web.StartSurveyQuestion.SendNotice(DataTable dt, String NoticeType, String Title, String SurveyId, String StartTime, String EndTime, String DescRipt)
+---------
+2014/1/7 16:37:39
+insert into FL_Recruitment..Remind
+                            (Id,Name,Phone,EmailAddress,RemindContent,RemindTime,SendType,Ext1,CreateTime,state,PhoneState,Title,MessageContent,UserId)
+                            values(newid(),'薛长圣','','changsheng_xue@feiliks.com',' <p><span style="text-transform: none; text-indent: 28px; letter-spacing: normal; display: inline !important; font: 14px/24px 'Times New Roman', SimSun, serif; white-space: normal; float: none; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-stroke-width: 0px">日方称，新修建的销毁处理设施不同于以往一次只能销毁几发的爆破处理设施，而将使用高温炉，采取将炮弹进行燃烧的方法。日本内阁官房有关部门表示：&ldquo;新设施建成后，有望能够大规模缩短处理作业所需要的时间。</span></p>
+                               <br/>打开此链接可直接填写问卷：<br/> http://localhost:8801/SurveyManage/InternetSurvey.aspx?Id=6e09850f-62a7-4813-afab-26e61feb13cc&uid=7fade269-eee3-47a3-9e93-b839a3449d07&op=r </br>如不能打开此链接，请复制链接地址到浏览器中打开。</br>请勿回复此邮件!','2014-01-07 16:41:09',',Email','S|6e09850f-62a7-4813-afab-26e61feb13cc',getdate(),'0','','WGM我的测试一','','7fade269-eee3-47a3-9e93-b839a3449d07')|   在 Aim.Data.DataHelper.ExecSql(String sqlString, IDbConnection conn)
+   在 Aim.Data.DataHelper.ExecSql(String sqlString)
+   在 Aim.Examining.Web.StartSurveyQuestion.SendNotice(DataTable dt, String NoticeType, String Title, String SurveyId, String StartTime, String EndTime, String DescRipt)
+---------
+2014/1/7 16:37:39
+insert into FL_Recruitment..Remind
+                            (Id,Name,Phone,EmailAddress,RemindContent,RemindTime,SendType,Ext1,CreateTime,state,PhoneState,Title,MessageContent,UserId)
+                            values(newid(),'郭秀君','','yuki_zhuang@feiliks.com',' <p><span style="text-transform: none; text-indent: 28px; letter-spacing: normal; display: inline !important; font: 14px/24px 'Times New Roman', SimSun, serif; white-space: normal; float: none; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-stroke-width: 0px">日方称，新修建的销毁处理设施不同于以往一次只能销毁几发的爆破处理设施，而将使用高温炉，采取将炮弹进行燃烧的方法。日本内阁官房有关部门表示：&ldquo;新设施建成后，有望能够大规模缩短处理作业所需要的时间。</span></p>
+                               <br/>打开此链接可直接填写问卷：<br/> http://localhost:8801/SurveyManage/InternetSurvey.aspx?Id=6e09850f-62a7-4813-afab-26e61feb13cc&uid=c8d34078-dea3-4160-b885-9d3f2cec0fa4&op=r </br>如不能打开此链接，请复制链接地址到浏览器中打开。</br>请勿回复此邮件!','2014-01-07 16:41:09',',Email','S|6e09850f-62a7-4813-afab-26e61feb13cc',getdate(),'0','','WGM我的测试一','','c8d34078-dea3-4160-b885-9d3f2cec0fa4')|   在 Aim.Data.DataHelper.ExecSql(String sqlString, IDbConnection conn)
+   在 Aim.Data.DataHelper.ExecSql(String sqlString)
+   在 Aim.Examining.Web.StartSurveyQuestion.SendNotice(DataTable dt, String NoticeType, String Title, String SurveyId, String StartTime, String EndTime, String DescRipt)
+---------
+2014/1/7 16:37:39
+insert into FL_Recruitment..Remind
+                            (Id,Name,Phone,EmailAddress,RemindContent,RemindTime,SendType,Ext1,CreateTime,state,PhoneState,Title,MessageContent,UserId)
+                            values(newid(),'吴拥锋','','housman_wu@feiliks.com',' <p><span style="text-transform: none; text-indent: 28px; letter-spacing: normal; display: inline !important; font: 14px/24px 'Times New Roman', SimSun, serif; white-space: normal; float: none; color: rgb(0,0,0); word-spacing: 0px; -webkit-text-stroke-width: 0px">日方称，新修建的销毁处理设施不同于以往一次只能销毁几发的爆破处理设施，而将使用高温炉，采取将炮弹进行燃烧的方法。日本内阁官房有关部门表示：&ldquo;新设施建成后，有望能够大规模缩短处理作业所需要的时间。</span></p>
+                               <br/>打开此链接可直接填写问卷：<br/> http://localhost:8801/SurveyManage/InternetSurvey.aspx?Id=6e09850f-62a7-4813-afab-26e61feb13cc&uid=ff52f38c-b4ca-4806-9065-ce187bd44c11&op=r </br>如不能打开此链接，请复制链接地址到浏览器中打开。</br>请勿回复此邮件!','2014-01-07 16:41:09',',Email','S|6e09850f-62a7-4813-afab-26e61feb13cc',getdate(),'0','','WGM我的测试一','','ff52f38c-b4ca-4806-9065-ce187bd44c11')|   在 Aim.Data.DataHelper.ExecSql(String sqlString, IDbConnection conn)
+   在 Aim.Data.DataHelper.ExecSql(String sqlString)
+   在 Aim.Examining.Web.StartSurveyQuestion.SendNotice(DataTable dt, String NoticeType, String Title, String SurveyId, String StartTime, String EndTime, String DescRipt)

@@ -1,0 +1,2 @@
+Õ{ÓÃ´ú´a:<textarea name="d_content" id="d_content" style="width:650px;height:350px;display:none;" rows="1" cols="20"></textarea>
+<iframe id="d_content___Frame" src="../../editor/ewebeditor/ewebeditor.htm?id=d_content&style=standard650&originalfilename=d_originalfilename&savefilename=d_savefilename&savepathfilename=d_savepathfilename" width="100%" height="350" frameborder="0" scrolling="no"></iframe></td>

@@ -1,0 +1,32 @@
+﻿.body
+{
+    background-color: White;
+}
+table
+{
+    border-collapse: collapse;
+    border: none;
+    font-size: 12px;
+}
+td
+{
+    border: solid #8FAACF 1px;
+    padding: 4px;
+}
+input
+{
+    width: 200px;
+    border: 1px solid #B5B8C8;
+    font-size: 14px;
+    background: #FFF url('/img/form/text-bg.gif') repeat-x;
+}
+.checkbox
+{
+    width: auto;
+    background-color: Transparent;
+}
+#divhydj li
+{
+    display: inline;
+    width: 40%;
+}

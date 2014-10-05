@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DownLoadSign.aspx.cs" Inherits="IntegratedManage.Web.CommonPages.File.DownLoadSign" %>

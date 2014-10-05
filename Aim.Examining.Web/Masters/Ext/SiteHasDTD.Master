@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteHasDTD.master.cs"
+    Inherits="Aim.Portal.Web.Masters.Ext.SiteHasDTD" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title id="pageTitle" runat="server">Aim</title>
+    <link href="/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="/App_Themes/Ext/css/ext-all.css" rel="stylesheet" type="text/css" />
+    <link href="/App_Themes/Ext/IE9Fix.css" rel="stylesheet" type="text/css" />
+    <link href="/App_Themes/Ext/ax-all.css" rel="stylesheet" type="text/css" />
+    <link href="/App_Themes/Ext/portal.css" rel="stylesheet" type="text/css" />
+    <!-- ext及jQuery库 -->
+
+    <script src="/js/lib/jquery-1.4.2.min.js" type="text/javascript"></script>
+
+    <!--<script src="/js/ext/adapter/jquery/ext-jquery-adapter-debug.js" type="text/javascript"></script>-->
+
+    <script src="/js/ext/adapter/jquery/ext-jquery-adapter.js" type="text/javascript"></script>
+
+    <script src="/js/ext/ext-all.js" type="text/javascript"></script>
+
+    <script src="/js/ext/locale/ext-lang-zh_CN.js" type="text/javascript"></script>
+
+    <script src="/js/ext/ux/CheckColumn.js" type="text/javascript"></script>
+
+    <script src="/js/lib/jquery.plug-ins.js" type="text/javascript"></script>
+
+    <script src="/js/lib/jquery.form.js" type="text/javascript"></script>
+
+    <script src="/js/common.js" type="text/javascript"></script>
+
+    <script src="/js/pgform.js" type="text/javascript"></script>
+
+    <script src="/js/pgfunc.js" type="text/javascript"></script>
+
+    <script src="/js/pgfunc-ext.js" type="text/javascript"></script>
+
+    <script src="/js/ext/ax-all.js" type="text/javascript"></script>
+
+    <style type="text/css">
+        html
+        {
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="HeadHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="pageBody" runat="server" style="margin: 0px">
+    <form id="pageForm" runat="server">
+    <asp:ContentPlaceHolder ID="BodyHolder" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

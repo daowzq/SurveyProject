@@ -1,0 +1,6 @@
+﻿<chart caption='Company Revenue' showPercentValues='1'>
+  <set label='Services' value='26' />
+  <set label='Hardware' value='32' />
+  <set label='Software' value='42' />
+</chart>
+

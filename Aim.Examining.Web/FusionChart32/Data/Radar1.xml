@@ -1,0 +1,58 @@
+<chart caption="Variance Analysis" bgColor="FFFFFF" radarFillColor="FFFFFF" plotFillAlpha="5" plotBorderThickness="2" anchorAlpha="100" numberPrefix="$" numDivLines="2" legendPosition="RIGHT">
+−
+<categories font="Arial" fontSize="11">
+<category label="Jan"/>
+<category label="Feb"/>
+<category label="Mar"/>
+<category label="Apr"/>
+<category label="May"/>
+<category label="Jun"/>
+<category label="Jul"/>
+<category label="Aug"/>
+<category label="Sep"/>
+<category label="Oct"/>
+<category label="Nov"/>
+<category label="Dec"/>
+</categories>
+−
+<dataset seriesname="Products" color="CD6AC0" anchorSides="6" anchorRadius="2" anchorBorderColor="CD6AC0" anchorBgAlpha="0">
+<set value="1127654"/>
+<set value="1226234"/>
+<set value="1299456"/>
+<set value="1311565"/>
+<set value="1324454"/>
+<set value="1357654"/>
+<set value="1296234"/>
+<set value="1359456"/>
+<set value="1391565"/>
+<set value="1414454"/>
+<set value="1671565"/>
+<set value="1134454"/>
+</dataset>
+−
+<dataset seriesname="Services" color="0099FF" anchorSides="10" anchorBorderColor="0099FF" anchorBgAlpha="0" anchorRadius="2">
+<set value="534241"/>
+<set value="556728"/>
+<set value="575619"/>
+<set value="676713"/>
+<set value="665520"/>
+<set value="634241"/>
+<set value="656728"/>
+<set value="675619"/>
+<set value="776713"/>
+<set value="865520"/>
+<set value="976713"/>
+<set value="665520"/>
+</dataset>
+−
+<styles>
+−
+<definition>
+<style name="myCaptionFont" type="font" font="Arial" size="14" color="666666" bold="1" underline="1"/>
+</definition>
+−
+<application>
+<apply toObject="Caption" styles="myCaptionFont"/>
+</application>
+</styles>
+</chart>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Comman.aspx.cs" Inherits="Aim.Examining.Web.SurveyManage.Comman" %>

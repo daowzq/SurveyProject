@@ -1,0 +1,40 @@
+<chart palette="1" caption="Revenue / Profit Simulation Chart" subcaption="Drag the top edge of columns to simulate revenue and profit." showvalues="0" xAxisName="Quarter" yAxisName="Dollars" formAction="DataHandler.html" numberPrefix="$" formatNumberScale="1">
+−
+<categories>
+<category name="Quarter 1"/>
+<category name="Quarter 2"/>
+<category name="Quarter 3"/>
+<category name="Quarter 4"/>
+</categories>
+−
+<dataset id="R" seriesName="Revenue" allowNegativeDrag="0">
+<set id="R1" value="3554800"/>
+<set id="R2" value="3014800"/>
+<set id="R3" value="2737200"/>
+<set id="R4" value="3540700"/>
+</dataset>
+−
+<dataset id="P" seriesName="Profit">
+<set id="P1" value="870000"/>
+<set id="P2" value="-419400"/>
+<set id="P3" value="452600"/>
+<set id="P4" value="717300" allowNegativeDrag="0"/>
+</dataset>
+−
+<trendlines>
+<line startValue="2800000" endValue="3500000" color="009900" displayValue="Target" isTrendZone="1" alpha="10" valueOnRight="1"/>
+</trendlines>
+−
+<styles>
+−
+<definition>
+<style name="myCaptionFont" type="font" font="Arial" size="14" bold="1"/>
+<style name="mySubCaptionFont" type="font" font="Arial" size="10" bold="0"/>
+</definition>
+−
+<application>
+<apply toObject="Caption" styles="myCaptionFont"/>
+<apply toObject="SubCaption" styles="mySubCaptionFont"/>
+</application>
+</styles>
+</chart>

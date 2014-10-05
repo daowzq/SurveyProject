@@ -1,0 +1,33 @@
+<chart caption="Comparison of Enterprise Level Antivirus Software" canvasBorderAlpha="0"  yMaxValue="10" showLimits="0" bgColor='FFFFFF' plotBorderThickness='1' radarSpikeThickness='3' divlineColor='9A9F9B' anchorRadius='4' anchorBorderThickness='2'>
+-
+<categories>
+<category label="CD" toolText="Centralized Deployability"/>
+<category label="CSU" toolText="Centralized Signature Updating"/>
+<category label="AF" toolText="Active Firewall"/>
+<category label="CAF" toolText="Centralized Access &amp; Firewall"/>
+<category label="CNHM" toolText="Centralized Network Health Monitoring"/>
+<category label="Cost" toolText="Cost"/>
+<category label="TS" toolText="Technical Support"/>
+</categories>
+-
+<dataset seriesName="Kaspersky">
+<set value="8"/>
+<set value="9"/>
+<set value="9"/>
+<set value="8"/>
+<set value="7"/>
+<set value="9"/>
+<set value="8"/>
+</dataset>
+-
+<dataset seriesName="Norton">
+<set value="7"/>
+<set value="6"/>
+<set value="6"/>
+<set value="4"/>
+<set value="7"/>
+<set value="6"/>
+<set value="5"/>
+</dataset>
+
+</chart>

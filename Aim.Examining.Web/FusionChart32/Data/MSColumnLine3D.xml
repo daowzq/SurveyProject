@@ -1,0 +1,41 @@
+﻿<chart caption='example' subCaption='Sum I_RIGHT_RATE by city'
+       palette='1' shownames='1' showvalues='0' decimals='0' numberPrefix='$' formatNumberScale='0'   >
+
+  <categories>
+    <category label='上海市' />
+    <category label='北京市' />
+    <category label='天津市' />
+    <category label='广州市' />
+    <category label='石家庄市' />
+    <category label='深圳市' />
+    <category label='重庆市' />
+  </categories>
+  <dataset seriesName='FACTSTA_TIMES' color="FB80F0" showValues="0">
+    <set value='1100' />
+    <set value='1234' />
+    <set value='2300' />
+    <set value='2900' />
+    <set value='2000' />
+    <set value='2200' />
+    <set value='2700' />
+  </dataset>
+  <dataset seriesName='INTIMESTA_TIMES' color="FBF1F0" showValues="0">
+    <set value='1800' />
+    <set value='2300' />
+    <set value='2500' />
+    <set value='2300' />
+    <set value='980' />
+    <set value='2890' />
+    <set value='2600' />
+  </dataset>
+  <dataset seriesName='LIMITSTA_TIMES' color="8BF280" showValues="0" renderas= "Line">
+    <set value='900' />
+    <set value='800' />
+    <set value='2100' />
+    <set value='1800' />
+    <set value='1600' />
+    <set value='2380' />
+    <set value='1700' />
+  </dataset>
+</chart>
+

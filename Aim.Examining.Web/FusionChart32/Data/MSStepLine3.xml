@@ -1,0 +1,47 @@
+<chart  caption="Sales Comparison"  yaxisname="Sales" showvalues="0" showalternatevgridcolor="1" bgalpha="45"  bgcolor="DFDFDF" numdivlines="4" showalternatehgridcolor="1" canvasborderthickness="1" canvasbordercolor="CDCDCD" anchorradius="4" anchorsides="16" anchorbgcolor="FFFFFF" anchorbordercolor="6F6F6F" alternatevgridalpha="10" alternatehgridcolor="FAE4E9" alternatehgridalpha="40" alternatevgridcolor="CFCFCF" linethickness="2" anchorborderthickness="2" linedashgap="5" divlinealpha="5" canvasborderalpha="60"  outcnvbasefontcolor="43302E" legendbordercolor="6C1121" legendborderalpha="40" legendborderthickness="2" borderColor="CDCDCD" borderalpha="70" rotateLabels='1'>
+  
+  <categories>
+    <category label='Jan' />
+    <category label='Feb' />
+    <category label='Mar' />
+    <category label='Apr' />
+    <category label='May' />
+    <category label='Jun' />
+    <category label='Jul' />
+    <category label='Aug' />
+    <category label='Sep' />
+    <category label='Oct' />
+    <category label='Nov' />
+    <category label='Dec' />
+  </categories>
+  
+  <dataset seriesName='2007' anchorbordercolor="B50F27"  color="BB2644"  >
+    <set value='27400' />
+    <set value='29800'/>
+    <set value='25800' />
+    <set value='26800' />
+    <set value='29600' />
+    <set value='32600' />
+    <set value='31800' />
+    <set value='36700' />
+    <set value='29700' />
+    <set value='31900' />
+    <set value='34800' />
+    <set value='33800' />
+  </dataset>
+  
+  <dataset seriesName='2006' color="515151" >
+    <set value="11276"/>
+    <set value="16234"/>
+    <set value="19456"/>
+    <set value="13565"/>
+    <set value="18454"/>
+    <set value="13654"/>
+    <set value="9934"/>
+    <set value="13596"/>
+    <set value="8615"/>
+    <set value="14454"/>
+    <set value="16765"/>
+    <set value="11354"/>
+ </dataset>
+</chart>

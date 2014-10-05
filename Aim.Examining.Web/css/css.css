@@ -1,0 +1,361 @@
+﻿body
+{
+    font-family: Arial, 宋体 ,Helvetica,sans-serif;
+    font-size: 12px;
+    color: #404040;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+*
+{
+    line-height: 21px;
+    margin: 0;
+    padding: 0;
+}
+ul
+{
+    overflow: hidden;
+    display: block;
+}
+img
+{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+li
+{
+    list-style-type: none;
+}
+a
+{
+    color: #0387cf;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #ff4d00;
+    text-decoration: underline;
+}
+.clear
+{
+    clear: both;
+}
+
+
+/*head and foot begin*/
+#head
+{
+    width: 75%;
+    height: 35px;
+    margin: 0 auto;
+}
+#header
+{
+    background: url(/images/login/top_bg.gif) 50% top repeat-x;
+}
+.logo
+{
+    float: left;
+}
+#foot
+{
+    background-color: #ebebeb;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0;
+}
+#footer
+{
+    width: 75%;
+    height: 30px;
+    color: #666;
+    line-height: 30px;
+    text-align: center;
+    _margin-top: 0;
+    margin: 20px auto 0;
+}
+#footer a
+{
+    color: #0084c9;
+    text-decoration: none;
+}
+/*head and foot end*/
+
+
+.radius1_bottom .radius1_bottom_l, .radius1_bottom .radius1_bottom_r, .radius1_top .radius1_top_l, .radius1_top .radius1_top_r, .radius_bottom .radius_bottom_l, .radius_bottom .radius_bottom_r, .radius_top .radius_top_l, .radius_top .radius_top_r, .nav_radius1_bottom .nav_radius1_bottom_l, .nav_radius1_bottom .nav_radius1_bottom_r, .nav_radius1_top .nav_radius1_top_l, .nav_radius1_top .nav_radius1_top_r, .w_radius1_bottom .radius1_bottom_l, .w_radius1_bottom .radius1_bottom_r, .w_radius1_top .radius1_top_l, .w_radius1_top .radius1_top_r
+{
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 0;
+}
+.sys_tip
+{
+    margin: 10px;
+}
+.live_content
+{
+    background-color: #fff;
+    width: 212px;
+    line-height: 40px;
+    font-size: 14px;
+    height: 108px;
+    text-align: center;
+    float: left;
+}
+.tip_title
+{
+    text-indent: 4px;
+    height: 20px;
+    font-family: @微软雅黑;
+    color: #a4a4b4;
+    line-height: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    background-color: #FAFAFA;
+}
+.live_content .sysico
+{
+    width: 150px;
+    height: 60px;
+}
+.radius_center
+{
+    background-color: #fff;
+    width: 214px;
+    _width: 480px;
+    z-index: 1;
+    padding: 0;
+}
+.radius_center .radius_center_l
+{
+    background-color: #fff;
+    width: 0;
+    height: 108px;
+    border-left: 1px solid #ccc;
+    float: left;
+}
+.radius_center .radius_center_r
+{
+    background-color: #fff;
+    width: 0;
+    height: 108px;
+    border-right: 1px solid #ccc;
+    float: right;
+}
+.radius_bottom, .radius_top
+{
+    width: 214px;
+    position: relative;
+    z-index: 1;
+}
+.radius_top .radius_top_l
+{
+    background: url(/images/sysentrance/live_radius_bg.gif) no-repeat 0 -12px;
+    left: 0;
+}
+.radius_top .radius_top_r
+{
+    background: url(/images/sysentrance/live_radius_bg.gif) no-repeat 0 0;
+    right: 0;
+}
+.radius_bottom .radius_bottom_l
+{
+    background: transparent url(/images/sysentrance/live_radius_bg.gif) no-repeat 0 -4px;
+    left: 0;
+}
+.radius_top .radius_top_c
+{
+    background-color: #FAFAFA;
+    border-top: 1px solid #C4CED9;
+    height: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.radius_bottom .radius_bottom_c
+{
+    background-color: #fff;
+    border-bottom: 1px solid #C4CED9;
+    height: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.radius_bottom .radius_bottom_r
+{
+    background: transparent url(/images/sysentrance/live_radius_bg.gif) no-repeat 0 -8px;
+    right: 0;
+}
+.sys_tip_active .radius_top .radius_top_l
+{
+    background: url(/images/sysentrance/corner_l.gif) no-repeat !important;
+}
+.sys_tip_active .radius_bottom .radius_bottom_l
+{
+    background: url(/images/sysentrance/corner_b_l.gif) no-repeat !important;
+}
+.sys_tip_active .radius_top .radius_top_r
+{
+    background: url(/images/sysentrance/corner_r.gif) no-repeat !important;
+}
+.sys_tip_active .radius_bottom .radius_bottom_r
+{
+    background: url(/images/sysentrance/corner_b_r.gif) no-repeat !important;
+}
+.sys_tip_active .radius_bottom .radius_bottom_c, .sys_tip_active .radius_top .radius_top_c
+{
+    background: url(images/sysentrance/border_top.gif) repeat-x !important;
+    border: none !important;
+    height: 4px !important;
+}
+.sys_tip_active .radius_center .radius_center_l, .sys_tip_active .radius_center .radius_center_r
+{
+    width: 4px;
+    background: url(/images/sysentrance/border_left.gif) repeat-y !important;
+    border: none !important;
+}
+.sys_tip_active .tip_title
+{
+    background: url(/images/sysentrance/tip_title.gif) repeat-x;
+    color: #fff;
+}
+.sys_tip_active .live_content
+{
+    width: 206px;
+}
+
+
+
+
+/*main begin*/
+.main
+{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.block
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.block li
+{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+
+
+.rollblock
+{
+    position:relative;
+    margin: 0 auto;
+    width: 99%;
+    height: 85%;
+}
+#blockwarp
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#blockwarp ul.warpul
+{
+    position: absolute;
+    height: 100%;
+}
+#blockwarp ul.warpul > li
+{
+    width: 1008px;
+    height:100%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+/**/
+.dotbar
+{
+    height: 18px;
+    width: 300px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.dotbar ul
+{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.dotbar li
+{
+    float: left;
+    width: 24px;
+    text-align: center;
+}
+
+
+
+/*=======*/
+.dock
+{
+    position: absolute;
+    width: 75%;
+    height: 100px;
+}
+#wrap
+{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 34px;
+    overflow: hidden;
+    background: url(/images/sysentrance/dock_c.png);
+}
+#wrap ul
+{
+    min-width: 100%;
+    height: 100px;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#wrap  ul  li
+{
+    float: left;
+    width: 160px;
+    height: 100px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+
+.dock .bar_l
+{
+    position: absolute;
+    width: 42px;
+    height: 100px;
+    background: url(/images/sysentrance/dock_l.png) no-repeat;
+    top: 0px;
+    left: -8px;
+}
+
+.dock .bar_r
+{
+    position: absolute;
+    top: 0px;
+    width: 42px;
+    height: 100px;
+    background: url(/images/sysentrance/dock_r.png) no-repeat;
+}

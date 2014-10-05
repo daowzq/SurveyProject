@@ -1,0 +1,49 @@
+<chart palette='1' caption='Daily Traffic Rank Trend' xAxisName='Month' yAxisName='Rank' showValues='0' formatNumberScale='0' areaBorderThickness='2' >
+
+   <categories>
+      <category label='Jan' />
+      <category label='Feb' />
+      <category label='Mar' />
+      <category label='Apr' />
+      <category label='May' />
+      <category label='Jun' />
+      <category label='Jul' />
+      <category label='Aug' />
+      <category label='Sep' />
+      <category label='Oct' />
+      <category label='Nov' />
+      <category label='Dec' />
+   </categories>
+   <dataset seriesName='Microsoft.com'>
+      <set value='10'/>
+      <set value='11'/>
+      <set value='12'/>
+      <set value='15'/>
+      <set value='11' />
+      <set value='9' />
+      <set value='11' />
+      <set value='19' />
+      <set value='21' />
+      <set value='21' />
+      <set value='22' />
+      <set value='20' />
+   </dataset>
+
+   <dataset seriesName='Adobe.com'>
+      <set value='274' />
+      <set value='298'/>
+      <set value='258' />
+      <set value='268' />
+      <set value='296' />
+      <set value='326' />
+      <set value='218' />
+      <set value='267' />
+      <set value='297' />
+      <set value='219' />
+      <set value='248' />
+      <set value='248' />
+   </dataset>
+
+   
+
+</chart> 

@@ -1,0 +1,32 @@
+﻿<chart caption="Temperature Monitoring" xAxisName="Time" yAxisName="Temperature (in degree C)" showvalues="0" bgalpha="35"  bgcolor="D2DDE9" showalternatehgridcolor="0" canvasbordercolor="D2DDE9" anchorradius="4" anchorsides="16" anchorbgcolor="FFFFFF" linethickness="4" anchorborderthickness="2"  divlinealpha="20" canvasborderalpha="40"  outcnvbasefontcolor="43302E" borderColor="D2DDE9" borderalpha="50" useForwardStep='0'>
+<categories>
+    <category label='0.00' />
+    <category label='3.00' />
+    <category label='6.00' />
+    <category label='12.00' />
+    <category label='15.00' />
+    <category label='18.00' />
+    <category label='21.00' />
+  </categories>
+  
+  <dataset seriesName='1st Jan 2007'>
+    <set value='9' />
+    <set value='5'/>
+    <set value='8' />
+    <set value='10' />
+    <set value='20' />
+    <set value='14' />
+    <set value='12' />
+ 
+  </dataset>
+  
+  <dataset seriesName='1st Jan 2008'>
+    <set value='17' />
+    <set value='12'/>
+    <set value='18' />
+    <set value='23' />
+    <set value='31' />
+    <set value='25' />
+    <set value='18' />
+ </dataset>
+</chart>

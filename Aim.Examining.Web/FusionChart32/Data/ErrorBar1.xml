@@ -1,0 +1,38 @@
+<chart caption="Employee Tenure" xAxisName="Position" yAxisName="Years" halfErrorBar="1" showvalues="0" bgalpha="50" bgcolor="A0CAD5" numdivlines="4"   canvasborderthickness="1" canvasbordercolor="DDDDFF" alternatehgridcolor="CFCFCF" alternatehgridalpha="20" alternatevgridcolor="E2C7CB" divlinealpha="0" bordercolor="3F3F3F" borderalpha="20" canvasborderalpha="50"  outcnvbasefontcolor="3F3F3F"  canvasbgcolor="FFFFFF"  showshadow="1" showplotborder="0" errorbarcolor='000000' errorbarthickness='2' >
+
+  <categories>
+    <category label="Pilots"/>
+    <category label="Flight Attendants"/>
+    <category label="Maintenance Personnel"/>
+    <category label="Sales Personnel"/>
+    <category label="Reservation and Ticketing Personnel"/>
+    <category label="Others"/>
+  </categories>
+
+  <dataset>
+    <set value="15" color="DE6B6B" errorValue="1.5"/>
+    <set value="9" color="A8A8A8" errorValue="1"/>
+    <set value="15" color="DACA03" errorValue="1.5"/>
+    <set value="20" color="75A733" errorValue="2"/>
+    <set value="17" color="0093C7" errorValue="2.5"/>
+    <set value="13" color="E4A798" errorValue="1"/>
+  </dataset>
+
+  <styles>
+
+    <definition>
+      <style name="Font_0" type="font" font="Calibri" size="17" bold="1" Italic="0" underline="0" bgcolor="D0E5EA" bordercolor="D0E5EA" isHTML="0"/>
+      <style name="Font_1" type="font" font="Calibri" bold="1" size="15" Italic="0" underline="0" bgcolor="D0E5EA" bordercolor="D0E5EA" isHTML="0"/>
+	  <style name="myErrorAnim" type="animation" param="_yScale" start="0" duration="1"/>
+    </definition>
+  
+    <application>
+      <apply toObject="CAPTION" styles="Font_0"/>
+      <apply toObject="YAXISNAME" styles="Font_1"/>
+      <apply toObject="XAXISNAME" styles="Font_1"/>
+	  <apply toObject="ERRORBARS" styles="myErrorAnim"/>
+    </application>
+
+  </styles>
+
+</chart>

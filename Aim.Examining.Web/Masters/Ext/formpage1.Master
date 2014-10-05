@@ -1,0 +1,12 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Masters/Ext/Site.Master" AutoEventWireup="true"
+    CodeBehind="formpage1.master.cs" Inherits="Aim.Examining.Web.Masters.Ext.formpage1" %>
+
+<asp:Content ID="HeadContent" ContentPlaceHolderID="HeadHolder" runat="server">
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <asp:ContentPlaceHolder ID="HeadHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="BodyHolder" runat="server">
+    <asp:ContentPlaceHolder ID="BodyHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

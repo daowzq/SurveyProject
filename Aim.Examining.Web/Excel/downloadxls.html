@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>文件下载</title>
+
+    <script src="/js/lib/jquery-1.4.2.min.js" type="text/javascript"></script>
+
+    <script src="/js/lib/jquery.plug-ins.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            jQuery.ajaxSetup({ cache: false });
+            $("#fileload").attr('href', $.getQueryString({ ID: 'filename' }));
+            $("#fileload")[0].click();
+        });
+    </script>
+
+</head>
+<body>
+    <div>
+        <a id="fileload" href="">点击此处下载</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<chart palette="2" caption="Cost Sheet" yAxisName="Cost in $" numberPrefix="$" showValues="1" showConnectors="0" positiveColor="00FF00" negativeColor="FF0000" xAxisName="Factor" showSumAtEnd="0" setAdaptiveYMin="1">
+<set label="Estimated Cost" value="340" color="999900"/>
+<set label="Escalation in Raw Materials" value="25"/>
+<set label="Increase in Wage" value="31"/>
+<set label="Change in Taxation" value="-17"/>
+<set label="Final Cost" isSum="1" color="999900"/>
+−
+<styles>
+−
+<definition>
+<style name="myCaptionFont" type="font" font="Arial" size="14" color="666666" bold="1" underline="1"/>
+</definition>
+−
+<application>
+<apply toObject="Caption" styles="myCaptionFont"/>
+</application>
+</styles>
+</chart>

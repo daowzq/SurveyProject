@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <script language="javascript">
+        function SuccessSubmit() {
+        }
+    </script>
+
+    <script language="javascript">
+        /**********************************************WorkFlow Function Start**************************/
+        var permission = {};
+        //这里依次统一添加各环节的控件权限
+        //PrjManageDeptSetOpinion,PrjManagerDeptOpinion,EngineerRoomOpinion,PrjManageDeptOpinion
+        permission.项目管理部意见 = { ReadOnly: "PrjManagerDeptOpinion,EngineerRoomOpinion,PrjManageDeptOpinion", Hidden: "trManagerId" };
+        permission.项目经理所在部门意见 = { ReadOnly: "PrjManageDeptSetOpinion,EngineerRoomOpinion,PrjManageDeptOpinion", Hidden: "trManagerId" };
+        permission.总工办推荐副总工程师 = { ReadOnly: "PrjManageDeptSetOpinion,PrjManagerDeptOpinion,PrjManageDeptOpinion", Hidden: "" };
+        permission.项目管理部确认 = { ReadOnly: "PrjManageDeptSetOpinion,PrjManagerDeptOpinion,EngineerRoomOpinion", Hidden: "" };
+        permission.审批人审批 = { ReadOnly: "Title,KeyWord", Hidden: "" };
+
+        var StartUserId = "";
+        var StartUserName = "";
+        var taskName = "";
+        function InitUIForFlow() {
+            //StartUserId = $("#RequestUserId").val();
+            //StartUserName = $("#RequestUserName").val();
+            if (window.parent.AimState["Task"])
+                taskName = window.parent.AimState["Task"].ApprovalNodeName;
+
+            $("#btnSubmit").hide();
+            $("#btnCancel").hide();
+
+            ///控制下一步路由
+            if (taskName == "确认发布内容") {
+                //SetRoute("公司领导",true);//第一个参数为下一步路由,第二个参数为是否禁止重新选择路由
+            }
+            switch (taskName) {
+                case "项目管理部意见":
+                    //签名控件
+                    $("#PrjManageDeptSetId").val(AimState.UserInfo.UserID).change();
+                    $("#PrjManageDeptSetDate").val(AimState.SystemInfo.Date);
+                    break;
+            }
+            if (eval("permission." + taskName)) {
+                //只读
+                var read = eval("permission." + taskName).ReadOnly;
+                for (var i = 0; i < read.split(',').length; i++) {
+                    var id = read.split(',')[i];
+                    if (document.getElementById(id))
+                        document.getElementById(id).readOnly = true;
+                }
+                //隐藏
+                var vis = eval("permission." + taskName).Hidden;
+                for (var i = 0; i < vis.split(',').length; i++) {
+                    var id = vis.split(',')[i];
+                    if (document.getElementById(id))
+                        document.getElementById(id).style.display = "none";
+                }
+            }
+        }
+        //保存流程和提交流程时触发
+        function onSave(task) {
+            SuccessSubmit();
+            //AimFrm.submit(pgAction, { param: "test" }, null, function() { });
+        }
+        //提交流程时触发
+        function onSubmit(task) {
+
+        }
+        //获取下一环节用户
+        function onGiveUsers(nextName) {
+            var users = { UserIds: "", UserNames: "" };
+            switch (nextName) {
+                case "项目经理所在部门意见":
+                    jQuery.ajaxExecSync('getdeptleader', { async: false, "UserId": $("#PrjManagerId").val() }, function(rtn) {
+                        users.UserIds = rtn.data.UserId;
+                        users.UserNames = rtn.data.UserName;
+                    });
+                    break;
+            }
+            return users;
+        }
+        //流程结束时触发
+        function onFinish(task) {
+            alert("结束");
+            /*jQuery.ajaxExec('submitfinish', { "state": "End", "id": id }, function() {
+                RefreshClose();
+            });*/
+        }
+        //第一个参数为下一步路由,第二个参数为是否禁止重新选择路由
+        function SetRoute(name, isVisable) {
+            if (window.parent.Ext.getCmp(name)) {
+                if (isVisable)
+                    window.parent.Ext.getCmp(name).show();
+                else
+                    window.parent.Ext.getCmp(name).hide();
+            }
+        }
+        function SetOpinion(text) {
+            if (window.parent.document.getElementById("textOpinion"))
+                window.parent.document.getElementById("textOpinion").value = text;
+        }
+        /*****************************************************WorkFlow Function End****************************/
+    </script>
+
+</head>
+<body>
+    <table width="800px" heght="100%" border="1" style="border-collapse: collapse">
+        <tr>
+            <td colspan="4">
+                流程控制测试
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                实际业务中,根据表单中条件控制各路由按钮显示
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 25%">
+                输入要控制的路由按钮名称 控制其显示/隐藏
+            </td>
+            <td style="width: 25%">
+                <input id="txtButtonName" value='不同意'/>
+            </td>
+            <td style="width: 25%">
+                <input id="Text1" type="button" value="显示" onclick="SetRoute(document.getElementById('txtButtonName').value,true);" />
+            </td>
+            <td style="width: 25%">
+                <input id="Text2" type="button" value="隐藏" onclick="SetRoute(document.getElementById('txtButtonName').value,false);" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                审批意见[从表单同步到流程任务中]
+            </td>
+            <td>
+                <textarea onchange="SetOpinion(this.value);"></textarea>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

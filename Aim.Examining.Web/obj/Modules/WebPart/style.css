@@ -1,0 +1,255 @@
+A:link {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A.A:link {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-DECORATION: none
+}
+A.A:visited {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-DECORATION: none
+}
+A.A:active {
+	FONT-WEIGHT: bold; COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.A:hover {
+	FONT-WEIGHT: bold; COLOR: #ff0000; TEXT-DECORATION: none; white-space:nowrap;
+}
+A.b:link {
+	FONT-WEIGHT: bold; COLOR: #f5f5f5; TEXT-DECORATION: none
+}
+A.b:visited {
+	FONT-WEIGHT: bold; COLOR: #f5f5f5; TEXT-DECORATION: none
+}
+A.b:active {
+	FONT-WEIGHT: bold; COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.b:hover {
+	FONT-WEIGHT: bold; COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.c:link {
+	COLOR: #ffcb00; TEXT-DECORATION: none
+}
+A.c:visited {
+	COLOR: #ffcb00; TEXT-DECORATION: none
+}
+A.c:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.c:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.d:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.d:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.d:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.d:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #eeeaeb; FONT-SIZE: 9pt; SCROLLBAR-HIGHLIGHT-COLOR: #fbfdfc; SCROLLBAR-SHADOW-COLOR: #170708; SCROLLBAR-3DLIGHT-COLOR: #170708; SCROLLBAR-ARROW-COLOR: #000000; FONT-FAMILY: Verdana; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; SCROLLBAR-BASE-COLOR: #170708
+}
+TABLE {
+	FONT-SIZE: 9pt; FONT-FAMILY: Verdana
+}
+TD {
+	FONT-SIZE: 9pt; FONT-FAMILY: Verdana
+}
+.border {
+	BORDER-RIGHT: #d1d1d1 1px solid; BORDER-TOP: #d1d1d1 1px solid; BORDER-LEFT: #d1d1d1 1px solid; BORDER-BOTTOM: #d1d1d1 1px solid
+}
+.munuborder {
+	BORDER-RIGHT: #d1d1d1 0px solid; BORDER-TOP: #d1d1d1 0px solid; BORDER-LEFT: #d1d1d1 0px solid; BORDER-BOTTOM: #d1d1d1 1px solid
+}
+.treebg {
+	BACKGROUND-IMAGE: url(/theme/1/treebg.gif)
+}
+.searchbg {
+	BACKGROUND-IMAGE: url(/theme/1/titlesearchbg.gif)
+}
+.newsbg {
+	BACKGROUND-IMAGE: url(/theme/1/newsbg.gif)
+}
+.newsline {
+	BACKGROUND-IMAGE: url(/theme/1/newsline.gif)
+}
+.newslineright {
+	BACKGROUND-IMAGE: url(/theme/1/newslineright.gif)
+}
+.newslinebottom {
+	BACKGROUND-IMAGE: url(/theme/1/newslinebottom.gif)
+}
+.notebg {
+	BACKGROUND-IMAGE: url(/theme/1/notebg.gif)
+}
+.bodycolor {
+	BACKGROUND: #ffffff
+}
+.topbar1 {
+	FONT-SIZE: 9pt; BACKGROUND: url(/theme/1/topbar1.gif) #264989
+}
+.topbar2 {
+	FONT-SIZE: 9pt; BACKGROUND: url(/theme/1/topbar2.gif) #264989
+}
+.panel {
+	BACKGROUND: #f5f5f5
+}
+.timebar {
+	BACKGROUND-IMAGE: url(/theme/1/login_infobg.gif)
+}
+.statusbar {
+	BACKGROUND: #cacaca
+}
+.col {
+	BACKGROUND: #c8c8c8
+}
+.small {
+	FONT-SIZE: 9pt
+}
+.small1 {
+	FONT-SIZE: 9pt; COLOR: #5151ff
+}
+.big {
+	FONT-SIZE: 12pt
+}
+.big1 {
+	FONT-SIZE: 12pt; COLOR: #5151ff
+}
+.big2 {
+	FONT-SIZE: 18pt
+}
+.big3 {
+	FONT-SIZE: 12pt; COLOR: #000000
+}
+.big4 {
+	COLOR: #279802
+}
+.verybig {
+	FONT-SIZE: 24pt
+}
+.tablehead1 {
+	FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(/theme/1/bgwebhead.gif); HEIGHT: 25px
+}
+.tablehead2 {
+	BACKGROUND: #e1e1e1; HEIGHT: 20px
+}
+.img {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; MARGIN: 0px; BORDER-LEFT: 0px; CURSOR: hand; BORDER-BOTTOM: 0px; POSITION: relative
+}
+INPUT.SmallButton {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 9pt; BACKGROUND: #f8f8f8; BORDER-LEFT: black 1px solid; CURSOR: hand; COLOR: #000000; BORDER-BOTTOM: #104a7b 1px solid; HEIGHT: 19px; TEXT-DECORATION: none
+}
+INPUT.BigButton {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 9pt; BACKGROUND: #f8f8f8; BORDER-LEFT: black 1px solid; CURSOR: hand; COLOR: #000000; BORDER-BOTTOM: #104a7b 1px solid; HEIGHT: 24px; TEXT-DECORATION: none
+}
+INPUT.inputbg {
+	BORDER-RIGHT: 0px solid; BORDER-TOP: #333333 1px solid; BACKGROUND-IMAGE: url(/theme/1/buttonbg.gif); VERTICAL-ALIGN: bottom; BORDER-LEFT: 0px solid; BORDER-BOTTOM: 0px solid; text-valign: bottom
+}
+INPUT.inputbgup {
+	BORDER-RIGHT: 0px solid; BORDER-TOP: #333333 1px solid; BACKGROUND-IMAGE: url(/theme/1/buttonbgup.gif); VERTICAL-ALIGN: bottom; BORDER-LEFT: 0px solid; BORDER-BOTTOM: 0px solid; text-valign: bottom
+}
+INPUT.SmallInput {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #f8f8f8; BORDER-LEFT: black 1px solid; COLOR: #000066; LINE-HEIGHT: normal; BORDER-BOTTOM: black 1px solid; FONT-STYLE: normal; HEIGHT: 18px; FONT-VARIANT: normal
+}
+INPUT.SmallInput1 {
+	BORDER-RIGHT: 0px; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #f8f8f8; BORDER-LEFT: black 1px solid; COLOR: #000066; LINE-HEIGHT: normal; BORDER-BOTTOM: black 1px solid; FONT-STYLE: normal; HEIGHT: 18px; FONT-VARIANT: normal
+}
+INPUT.BigInput {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; BACKGROUND: #f8f8f8; BORDER-LEFT: black 1px solid; COLOR: #000066; LINE-HEIGHT: normal; BORDER-BOTTOM: 1px double; FONT-STYLE: normal; HEIGHT: 20px; FONT-VARIANT: normal
+}
+INPUT.Inputborder {
+	BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; FONT-WEIGHT: normal; BACKGROUND: #f8f8f8; BORDER-LEFT: black 0px solid; COLOR: #000066; LINE-HEIGHT: normal; BORDER-BOTTOM: 0px double; FONT-STYLE: normal; HEIGHT: 20px; FONT-VARIANT: normal
+}
+INPUT.BigInputMoney {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12pt; BACKGROUND: #f8f8f8; BORDER-LEFT: black 1px solid; COLOR: #000066; LINE-HEIGHT: normal; BORDER-BOTTOM: 1px double; FONT-STYLE: normal; HEIGHT: 22px; TEXT-ALIGN: right; FONT-VARIANT: normal
+}
+INPUT.SmallStatic {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #e0e0e0; BORDER-LEFT: black 1px solid; COLOR: #000066; LINE-HEIGHT: normal; BORDER-BOTTOM: black 1px solid; FONT-STYLE: normal; HEIGHT: 18px; FONT-VARIANT: normal
+}
+INPUT.BigStatic {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; BACKGROUND: #e0e0e0; BORDER-LEFT: black 1px solid; COLOR: #000066; LINE-HEIGHT: normal; BORDER-BOTTOM: 1px double; FONT-STYLE: normal; HEIGHT: 22px; FONT-VARIANT: normal
+}
+SELECT.BigSelect {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; BACKGROUND: #f8f8f8; BORDER-LEFT: black 1px solid; COLOR: #000066; LINE-HEIGHT: normal; BORDER-BOTTOM: 1px double; FONT-STYLE: normal; HEIGHT: 20px; FONT-VARIANT: normal
+}
+SELECT.SmallSelect {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #f8f8f8; BORDER-LEFT: black 1px solid; COLOR: #000066; LINE-HEIGHT: normal; BORDER-BOTTOM: 1px double; FONT-STYLE: normal; HEIGHT: 18px; FONT-VARIANT: normal
+}
+SELECT.BigStatic {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; BACKGROUND: #e0e0e0; BORDER-LEFT: black 1px solid; COLOR: #000066; LINE-HEIGHT: normal; BORDER-BOTTOM: 1px double; FONT-STYLE: normal; HEIGHT: 22px; FONT-VARIANT: normal
+}
+SELECT.SmallStatic {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #e0e0e0; BORDER-LEFT: black 1px solid; COLOR: #000066; LINE-HEIGHT: normal; BORDER-BOTTOM: black 1px solid; FONT-STYLE: normal; HEIGHT: 18px; FONT-VARIANT: normal
+}
+TEXTAREA.BigInput {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; BACKGROUND: #f8f8f8; BORDER-LEFT: black 1px solid; COLOR: #000066; LINE-HEIGHT: normal; BORDER-BOTTOM: 1px double; FONT-STYLE: normal; FONT-VARIANT: normal
+}
+TEXTAREA.BigStatic {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #f8f8f8; BORDER-LEFT: black 1px solid; COLOR: #000066; LINE-HEIGHT: 130%; BORDER-BOTTOM: 1px double; FONT-STYLE: normal; FONT-VARIANT: normal
+}
+.TableControl {
+	BACKGROUND: #eff7ff
+}
+.TableHeader {
+	FONT-WEIGHT: bold; BACKGROUND: url(/theme/1/headerbg.gif) #d3e5fa; COLOR: #000000; HEIGHT: 22px
+}
+.TableHeader1 {
+	BACKGROUND: url(/theme/1/button_back.gif) #d3e5fa; CURSOR: hand; COLOR: #000066
+}
+.TableContent {
+	BACKGROUND: #c2efcb
+}
+.TableData {
+	BACKGROUND: #ffffff
+}
+.TableLine1 {
+	BACKGROUND: #f5f5f5; HEIGHT: 20px
+}
+.TableLine2 {
+	BACKGROUND: #e8e8e8; HEIGHT: 20px
+}
+.TableLine3 {
+	BACKGROUND: #e4e4e4; HEIGHT: 20px
+}
+.highlight {
+	BACKGROUND-COLOR: #aaa
+}
+.nohighlight {
+	BACKGROUND-COLOR: #ccc
+}
+.line-150 {
+	LINE-HEIGHT: 150%
+}
+BUTTON.btn {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; PADDING-LEFT: 8px; FONT-SIZE: 8pt; BACKGROUND-IMAGE: url(/images/button/blank.gif); PADDING-BOTTOM: 2px; MARGIN: 2px 0px 1px 2px; OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 114px; CURSOR: hand; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana; HEIGHT: 20px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+BUTTON.btns {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; PADDING-LEFT: 8px; FONT-SIZE: 8pt; BACKGROUND-IMAGE: url(/images/button/blanks.gif); PADDING-BOTTOM: 2px; MARGIN: 2px 0px 1px 2px; OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 50px; CURSOR: hand; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana; HEIGHT: 20px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+.linktextOp {
+	CURSOR: hand; COLOR: #0000ff; BORDER-BOTTOM: #0000ff 1px double
+}
+.linkdivOp {
+	CURSOR: hand; COLOR: #0000ff
+}
+.nolinktextOp {
+	CURSOR: default; COLOR: #000000; BORDER-BOTTOM: #000000 1px double
+}
+.Wdate {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BACKGROUND: url(/images/calendar/datePicker.gif) no-repeat right 50%; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 20px
+}
+.Wtime {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BACKGROUND: url(/images/calendar/time.gif) no-repeat right 50%; BORDER-LEFT: #000000 1px solid; WIDTH: 60px; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 20px
+}
