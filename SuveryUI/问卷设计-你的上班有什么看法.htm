@@ -1,0 +1,815 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0059)http://www.wenjuan.com/edit/survey/543a2e85f7405b41c21c51f0 -->
+<html xmlns="http://www.w3.org/1999/xhtml" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<title>问卷设计-你的上班有什么看法</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-store">
+<meta http-equiv="Expires" content="0">
+
+<link href="http://www.wenjuan.com/static/css/public.css?v=2791e85415ca8dcf61f2b67514ec542c" rel="stylesheet">
+
+<link href="http://www.wenjuan.com/static/css/public.css?v=2791e85415ca8dcf61f2b67514ec542c" rel="stylesheet">
+<link href="http://www.wenjuan.com/static/css/style.css?v=8383c5cded2d6221c5f3a90a7391c8a5" rel="stylesheet">
+<link href="http://www.wenjuan.com/static/css/button.css?v=f2c67002a2f2e6aeea7c3d34fa6f1eda" rel="stylesheet">
+<link href="http://www.wenjuan.com/static/css/popuplayer.css?v=0c8fd40912a8fe68738af8e954ddf270" rel="stylesheet">
+
+
+
+<style type="text/css">
+
+
+
+.q_title{}
+
+
+
+
+.T_edit_min, .T_edit_td{}
+
+
+
+
+.p_title{}
+
+
+
+
+.p_begin_desc{}
+
+
+
+
+.p_end_desc{}
+
+
+</style>
+
+
+
+<!--script src="/static/js/jquery.js?v=7aa8158252cf79c03f55d0ca27f7842f"></script-->
+<script type="text/javascript" charset="utf-8" async="" src="./SurveyUI/b.js"></script><script type="text/javascript" async="" src="./SurveyUI/dc.js"></script><script type="text/javascript" src="./SurveyUI/jquery_1.10.2.min.js"></script>
+<script type="text/javascript" src="./SurveyUI/jquery-migrate-1.2.1.js"></script>
+<script src="./SurveyUI/jquery.cookie.js"></script>
+<script src="./SurveyUI/jquery-ui-1.10.min.js"></script>
+<script src="./SurveyUI/json.js"></script>
+<script src="./SurveyUI/base_utils.js"></script>
+
+<script type="text/javascript" src="./SurveyUI/base_utils.js"></script>
+<style>.cke{visibility:hidden;}</style></head>
+<body>
+<div class="header">
+<div class="wrapper">
+<a href="http://www.wenjuan.com/" class="logo"></a>
+
+<ul class="main-nav">
+<li class="active">
+<a href="http://www.wenjuan.com/mysurvey">问卷</a>
+</li>
+<li>
+<a href="http://www.wenjuan.com/myform">表单</a>
+</li>
+<li>
+<a href="http://www.wenjuan.com/lib">模板库</a>
+</li>
+<li>
+<a href="http://www.wenjuan.com/helpcenter">帮助</a>
+</li>
+<li>
+<a href="http://bbs.wenjuan.com/" target="_blank">论坛</a>
+</li>
+</ul>
+
+
+<div class="entry">
+
+<!-- <ul class="util-nav">
+<li><a class="getevent" href="/stu_event/" target="_blank">同学，快来毕业论文大作战</a></li>
+<li>
+<a href="/member/" title="吴炅明11703835">
+吴炅明11703835
+</a>
+</li>
+<li>
+<a href="/member/">我的账号</a>
+</li>
+<span id="show_msg_id" >
+<li>|</li>
+<li class="NewMessage">
+<a class="xsa" href="/message/list">消息</a>
+</li>
+<li>|</li>
+</span>
+<li>
+<a href="/logout/">退出</a>
+</li>
+</ul> -->
+<ul class="util-nav">
+<li>
+<a class="wjNews" href="http://www.wenjuan.com/message/list"></a>
+</li>
+<li class="username">
+<a href="javascript:;" title="吴炅明11703835">
+吴炅明11703835
+</a>
+<div class="arrowup">
+<div class="arrowupt"></div>
+</div>
+<div class="loginMeun">
+<div class="opacityDIV"></div>
+<div class="loginMenu_n">
+<ul class="UserMenu">
+<li><a href="http://www.wenjuan.com/member">我的账户</a></li>
+<li><a href="http://www.wenjuan.com/member/myscore">调查券</a></li>
+<li><a href="http://www.wenjuan.com/contact/list/all?zoom_model=normal">联系人</a></li>
+<li class="bbnot"><a href="http://www.wenjuan.com/logout">退出</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+
+<a href="http://www.wenjuan.com/event" id="schstart" style="position: relative;top: 27px;display: block;color: #f78d1d;float: right;margin-right: 20px;">开学迎新送百万!</a></div>
+
+<script type="text/javascript">
+$(function(){
+var school='<a href="/event" id="schstart" style="position: relative;top: 27px;display: block;color: #f78d1d;float: right;margin-right: 20px;">开学迎新送百万!</a>';
+var school1='<a href="/event" id="schstart" style="position: relative;top: 27px;display: block;color: #f78d1d;float: right;margin-right: 80px;">开学迎新送百万!</a>';
+if(!$('.entry').length){$(".wrapper:eq(0)").append(school1);} else{$('.entry').append(school);}
+})
+</script>
+</div>
+</div>
+<!--top end-->
+
+<div class="wjContent" style="background:#fff;">
+<div class="container-fluid clear">
+<div class="row-fluid">
+<!--wentop-->
+<div class="wentop">
+<ul id="myTab" class="nav1 nav2-tabs">
+<li class="active">
+<a href="http://www.wenjuan.com/edit/survey/543a2e85f7405b41c21c51f0#design" data-toggle="tab">问卷设计</a>
+</li>
+<li>
+<a href="http://www.wenjuan.com/collect/urllink/543a2e85f7405b41c21c51f0" data-toggle="tab">答卷收集</a>
+</li>
+<li>
+<a href="http://www.wenjuan.com/report/basic_chart/543a2e85f7405b41c21c51f0" data-toggle="tab">结果分析</a>
+</li>
+</ul>
+<h4 class="h4st1">
+<div class="h4Title">
+
+你的上班有什么看法
+
+</div>
+<select name="proj_func_select" id="proj_func_select">
+
+<option value="51dd234e9b9fbe6646bf4dcc" selected="selected">品牌营销</option>
+
+<option value="51dd234e9b9fbe6646bf4dcd">产品测试</option>
+
+<option value="51dd234e9b9fbe6646bf4dce">消费者分析</option>
+
+<option value="51dd234e9b9fbe6646bf4dcf">满意度调查</option>
+
+<option value="51dd234e9b9fbe6646bf4dd0">人力资源</option>
+
+<option value="51dd234e9b9fbe6646bf4dd1">学术教育</option>
+
+<option value="51dd234e9b9fbe6646bf4dd2">社会民意</option>
+
+<option value="51dd234e9b9fbe6646bf4dd3">其他</option>
+
+</select>
+</h4>
+<div id="myTabContent" class="tab2-content">
+<div class="tab-pane fade in active" id="design">
+<ul class="fr">
+<li>
+<a id="appearset" href="javascript:;"> <i class="design-set1-icon active"></i>
+外观设置
+</a>
+</li>
+<li>
+<a class="logicset" href="javascript:;"> <i class="design-set2-icon"></i>
+逻辑设置
+</a>
+</li>
+<li>
+<a id="ansrest" href="javascript:;"> <i class="design-set0-icon"></i>
+收集设置
+</a>
+</li>
+<li>
+<a href="http://www.wenjuan.com/s/YVNFj2?test=1&v=0.64854212455" target="_blank">
+<i class="design-set4-icon"></i>
+预览问卷
+</a>
+</li>
+<li>
+<a target="_blank" onclick="publish_proj_confirm();return false;" href="http://www.wenjuan.com/edit/survey/543a2e85f7405b41c21c51f0#">
+<i class="design-set5-icon"></i>
+发布问卷
+</a>
+</li>
+</ul>
+</div>
+<div class="tab-pane fade" id="collect">
+<ul class="fr">
+<li>
+<a href="javascript:;">
+<i class="collect-set1-icon active"></i>
+问卷链接
+</a>
+</li>
+<li>
+<a href="javascript:;">
+<i class="collect-set2-icon"></i>
+社交分享
+</a>
+</li>
+<li>
+<a href="javascript:;">
+<i class="collect-set3-icon"></i>
+邮件邀请
+</a>
+</li>
+<li>
+<a href="javascript:;">
+<i class="collect-set4-icon"></i>
+网站收集
+</a>
+</li>
+</ul>
+</div>
+<div class="tab-pane fade" id="analyse">
+<ul class="fr">
+<li>
+<a href="javascript:;">
+<i class="analyse-set1-icon active"></i>
+基本图表
+</a>
+</li>
+<li>
+<a href="javascript:;">
+<i class="analyse-set2-icon"></i>
+交叉图表
+</a>
+</li>
+<li>
+<a href="javascript:;">
+<i class="analyse-set3-icon"></i>
+答卷详情
+</a>
+</li>
+</ul>
+</div>
+</div>
+<!--/.tab2-content--> </div>
+<!--/.wentop-->
+<div class="rows1" style="">
+<div class="well sidebar-nav affix-top" id="accordion1">
+<div class="accordion-group">
+<h4 class="tc">
+<a href="javascript:;">
+常用题型
+<i class="icon_on"></i>
+</a>
+</h4>
+<ul class="ul-tool collapse">
+<li class="moduleL ui-draggable" name="2">
+<a href="javascript:;">
+<i class="basic-too11-icon-active"></i>
+单选题
+</a>
+</li>
+<li class="moduleL ui-draggable" name="3">
+<a href="javascript:;">
+<i class="basic-too12-icon-active"></i>
+多选题
+</a>
+</li>
+<li class="moduleL ui-draggable" name="2" disp_type="image_single">
+<a href="javascript:;">
+<i class="basic-too2013-icon-active"></i>
+图片单选题
+</a>
+</li>
+<li class="moduleL ui-draggable" name="3" disp_type="image_multiple">
+<a href="javascript:;">
+<i class="basic-too2014-icon-active"></i>
+图片多选题
+</a>
+</li>
+<li class="moduleL ui-draggable" name="6">
+<a href="javascript:;">
+<i class="basic-too13-icon-active"></i>
+单行填空题
+</a>
+</li>
+<li class="moduleL ui-draggable" name="6" disp_type="multi_line_blank">
+<a href="javascript:;">
+<i class="basic-too200-icon-active"></i>
+多行填空题
+</a>
+</li>
+<li class="moduleL ui-draggable" name="95">
+<a href="javascript:;">
+<i class="basic-too16-icon-active"></i>
+多项填空题
+</a>
+</li>
+<li class="moduleL ui-draggable" name="60">
+<a href="javascript:;">
+<i class="basic-too15-icon-active"></i>
+排序题
+</a>
+</li>
+<li class="moduleL ui-draggable" name="50">
+<a href="javascript:;">
+<i class="basic-too14-icon-active"></i>
+打分题
+</a>
+</li>
+<li class="moduleL ui-draggable" name="4">
+<a href="javascript:;">
+<i class="basic-too17-icon-active"></i>
+矩阵单选题
+</a>
+</li>
+<li class="moduleL ui-draggable" name="5">
+<a href="javascript:;">
+<i class="basic-too18-icon-active"></i>
+矩阵多选题
+</a>
+</li>
+<li class="moduleL ui-draggable" name="100">
+<a href="javascript:;">
+<i class="basic-too19-icon-active"></i>
+矩阵填空题
+</a>
+</li>
+<li class="moduleL ui-draggable" name="70">
+<a href="javascript:;">
+<i class="basic-too111-icon-active"></i>
+段落说明
+</a>
+</li>
+<li class="moduleL ui-draggable" name="page">
+<a href="javascript:;">
+<i class="basic-too112-icon-active"></i>
+分页
+</a>
+</li>
+</ul>
+<h4 class="tc">
+<a href="javascript:;">
+更多题型
+<i class=""></i>
+</a>
+</h4>
+<ul id="common" class="ul-tool collapse" style="display:none;">
+<li class="moduleL ui-draggable" name="7">
+<a href="javascript:;">
+<i class="basic-too110-icon-active"></i>
+矩阵打分题
+</a>
+</li>
+<li class="moduleL ui-draggable" name="sex">
+<a href="javascript:;">
+<i class="basic-too207-icon-active"></i>
+性别
+</a>
+</li>
+<li class="moduleL ui-draggable" name="mobile">
+<a href="javascript:;">
+<i class="basic-too202-icon-active"></i>
+手机
+</a>
+</li>
+<li class="moduleL ui-draggable" name="email">
+<a href="javascript:;">
+<i class="basic-too203-icon-active"></i>
+Email
+</a>
+</li>
+<li class="moduleL ui-draggable" name="age">
+<a href="javascript:;">
+<i class="basic-too2020-icon-active"></i>
+生日
+</a>
+</li>
+<li class="moduleL ui-draggable" name="city">
+<a href="javascript:;">
+<i class="basic-too2019-icon-active"></i>
+城市
+</a>
+</li>
+<li class="moduleL ui-draggable" name="address">
+<a href="javascript:;">
+<i class="basic-too204-icon-active"></i>
+地址
+</a>
+</li>
+<li class="moduleL ui-draggable" name="name">
+<a href="javascript:;">
+<i class="basic-too201-icon-active"></i>
+姓名
+</a>
+</li>
+<li class="moduleL ui-draggable" name="work_ex">
+<a href="javascript:;">
+<i class="basic-too208-icon-active"></i>
+工作年限
+</a>
+</li>
+<li class="moduleL ui-draggable" name="education">
+<a href="javascript:;">
+<i class="basic-too209-icon-active"></i>
+教育程度
+</a>
+</li>
+<li class="moduleL ui-draggable" name="income">
+<a href="javascript:;">
+<i class="basic-too2010-icon-active"></i>
+个人收入
+</a>
+</li>
+<li class="moduleL ui-draggable" name="company">
+<a href="javascript:;">
+<i class="basic-too2011-icon-active"></i>
+工作单位
+</a>
+</li>
+<li class="moduleL ui-draggable" name="marriage">
+<a href="javascript:;">
+<i class="basic-too2012-icon-active"></i>
+婚姻状况
+</a>
+</li>
+<li class="moduleL ui-draggable" name="70" disp_type="split_line">
+<a href="javascript:;">
+<i class="basic-too2017-icon-active"></i>
+分割线
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!--/.rows1-->
+<div class="rows2 well2 Tj"><a title="关注问卷网微信" class="top_weixin ie6fixedBR" style="margin-left: 850px; bottom: 60px;" href="javascript:;"></a><a class="top_feedback ie6fixedBR" style="margin-left: 850px; bottom: 5px;" target="_blank" href="http://www.wenjuan.com/about/zxzx/"></a>
+<h4 name="project" class="h4-bg T_edit p_title">你的上班有什么看法</h4>
+<table class="table1 bg-m">
+<tbody><tr>
+<td class="rb">&nbsp;</td>
+<td>
+<div class="th4 T_edit p_begin_desc" name="begin_desc">欢迎参加本次答题</div>
+</td>
+</tr>
+</tbody></table>
+<ul class="dragwen ui-sortable" id="question_box">
+<!-- 题目的html放这里 --> <li class="module" oid="543a2ef6f7405b41b6f77ca6" issue="2" disp_type="vertical" cols_count="1"><div class="topic_type"><div class="topic_type_menu"><div class="setup-group"><h4>Q1</h4><a class="Bub" href="javascript:;" title="题目设置" style="display: block;"> <i class="setup-icon-active"></i></a><a class="Bub" href="javascript:;" title="逻辑设置" style="display: block;"> <i class="link-icon-active"></i></a><a class="Bub" href="javascript:;" title="题目复制" style="display: block;"><i class="copy-icon-active"></i></a><a class="Del" href="javascript:;" title="题目删除" style="display: block;"><i class="del2-icon-active"></i></a></div></div><div class="topic_type_con"><div class="Drag_area"><div class="th4 T_edit q_title" name="question">单选题</div></div><ul class="unstyled "><li style=""><input type="radio" name="radio" id="option_543a2ef6f7405b41b6f77ca7" value="option_543a2ef6f7405b41b6f77ca7"><label class="T_edit_min" for="" name="option" id="543a2ef6f7405b41b6f77ca7">选项1</label></li><li style=""><input type="radio" name="radio" id="option_543a2ef6f7405b41b6f77ca8" value="option_543a2ef6f7405b41b6f77ca8"><label class="T_edit_min" for="" name="option" id="543a2ef6f7405b41b6f77ca8">选项2</label></li></ul><div class="operationH"><a href="javascript:;" style="display: block;"><i title="添加选项" class="add-icon-active"></i></a><a class="Bub" href="javascript:;" title="批量添加" style="display: block;"><i class="clone-icon-active"></i></a></div></div></div><div class="updown" style="display: block;"><a href="javascript:;"><i title="上移本题" class="up-icon-active"></i></a><a href="javascript:;"><i title="下移本题" class="down-icon-active"></i></a></div></li></ul>
+<ul class="ul_tail">
+<li class="module paging" oid="|">
+<div class="topic_type">
+<div class="topic_type_menu">
+<div class="setup-group">
+<a class="DelPaging" title="删除分页" href="javascript:;">
+<i class="del2-icon-active"></i>
+</a>
+</div>
+</div>
+<div class="topic_type_con">
+<div class="icon_paging"></div>
+<div class="fr con_paging">
+页码：
+<span>1/1</span>
+</div>
+</div>
+</div>
+<div class="updown">
+<a href="javascript:;">
+<i title="上移本题" class="up-icon-active"></i>
+</a>
+<a href="javascript:;">
+<i title="下移本题" class="down-icon-active"></i>
+</a>
+</div>
+</li>
+</ul>
+<table class="table1 bg-m">
+<tbody><tr>
+<td class="rb"></td>
+<td>
+<div class="selectEnd">
+<select id="end_desc_type">
+<option value="complete">正常完成</option>
+<option value="screenout">提前结束（不计入结果）</option>
+<!--option value="自动结束（指定份数）">自动结束（指定份数）</option-->
+<!--option value="自动结束（指定时间）">自动结束（指定时间）</option-->
+</select>
+<span> 时显示</span>
+</div>
+<h4 name="end_desc" class="th4 T_edit p_end_desc" id="end_desc">
+
+您已完成本次问卷，感谢您的帮助与支持
+
+</h4>
+</td>
+</tr>
+</tbody></table>
+</div>
+<!--/.rows2--> </div>
+<!--/.row-fluid--> </div>
+<!--/container-fluid-->
+</div>
+<form id="change_project_status_form" action="http://www.wenjuan.com/edit/ajax/update_project_status/" method="POST" callback="change_project_status_callback">
+<input type="hidden" name="proj_id">
+<input type="hidden" name="status">
+<input type="hidden" name="is_shared"><input type="hidden" name="_xsrf" value="7cbf68a99dd6400a8027844dd926dfba">
+</form>
+<!--日期组件-->
+<link type="text/css" rel="stylesheet" href="./SurveyUI/zebra_datepicker_metallic.css">
+<script type="text/javascript" src="./SurveyUI/zebra_datepicker.js"></script>
+<script type="text/javascript">
+var project = {"status": 0, "updated": {"$date": 1413128055034}, "official_status": 0, "is_shared": false, "short_id": "YVNFj2", "is_struct_change": 1, "_id": {"$oid": "543a2e85f7405b41c21c51f0"}, "questionpage_id_list": ["543a2e85f7405b41c21c51f1"], "page_count": 1, "questionpage_list": [{"updated": {"$date": 1413127941246}, "_id": {"$oid": "543a2e85f7405b41c21c51f1"}, "question_id_list": ["543a2ef6f7405b41b6f77ca6"], "question_list": [{"has_open_option": false, "project_id": "543a2e85f7405b41c21c51f0", "jumpconstraint_id_list": [], "question_type": 2, "cid": "Q1", "questionpage_id": "543a2e85f7405b41c21c51f1", "title": "\u5355\u9009\u9898", "updated": {"$date": 1413128054857}, "matrixrow_id_list": [], "option_list": [{"updated": {"$date": 1413128054891}, "title": "\u9009\u98791", "cid": "A1", "is_open": false, "_id": {"$oid": "543a2ef6f7405b41b6f77ca7"}, "custom_attr": {}, "question_id": "543a2ef6f7405b41b6f77ca6"}, {"updated": {"$date": 1413128054914}, "title": "\u9009\u98792", "cid": "A2", "is_open": false, "_id": {"$oid": "543a2ef6f7405b41b6f77ca8"}, "custom_attr": {}, "question_id": "543a2ef6f7405b41b6f77ca6"}], "option_id_list": ["543a2ef6f7405b41b6f77ca7", "543a2ef6f7405b41b6f77ca8"], "_id": {"$oid": "543a2ef6f7405b41b6f77ca6"}, "custom_attr": {}}], "project_id": "543a2e85f7405b41c21c51f0", "custom_attr": {}}], "share_status": 0, "created": {"$date": 1413127941230}, "end_desc": "\u60a8\u5df2\u5b8c\u6210\u672c\u6b21\u95ee\u5377\uff0c\u611f\u8c22\u60a8\u7684\u5e2e\u52a9\u4e0e\u652f\u6301", "creator_id": "5424e41bf7405b672ed8f936", "version": 1, "question_count": 1, "title": "\u4f60\u7684\u4e0a\u73ed\u6709\u4ec0\u4e48\u770b\u6cd5", "project_func_id": "51dd234e9b9fbe6646bf4dcc", "first_create_for_member": false, "custom_attr": {"new_custom_style": {"TerminalStyle": {"PC": {"R_BgColor": "", "BgImagePosition": "", "backgroundRepeat": "repeat", "ImageURl": "", "BgColor": "#efefef", "WjBgColor": "#fff", "BgImageURl": "", "font": [{"bold": "", "color": "", "id": "QuesitonStyle", "italic": "", "font": "", "underline": "", "size": ""}, {"bold": "", "color": "", "id": "OptionsStyle", "italic": "", "font": "", "underline": "", "size": ""}, {"bold": "", "color": "", "id": "TopicStyle", "italic": "", "font": "", "underline": "", "size": ""}, {"bold": "", "color": "", "id": "WelcomeStyle", "italic": "", "font": "", "underline": "", "size": ""}, {"bold": "", "color": "", "id": "EndStyle", "italic": "", "font": "", "underline": "", "size": ""}], "OtherColor": "#3c9ccf", "R_OtherColor": "#fff"}, "Phone": {"TopBgColor": "#85c8ff", "BgColor": "#efefef", "theme": "7", "R_TopBgColor": "#ffffff", "font": [{"bold": "", "color": "", "id": "QuesitonStylePhone", "italic": "", "font": "", "underline": "", "size": ""}, {"bold": "", "color": "", "id": "OptionsStylePhone", "italic": "", "font": "", "underline": "", "size": ""}, {"bold": "", "color": "", "id": "RemarkStylePhone", "italic": "", "font": "", "underline": "", "size": ""}], "OtherColor": "#85c8ff", "R_OtherColor": "#ffffff"}}, "Language": "zh_CN", "Number": "false", "ProgressBar": "true", "logoPosition": "left", "logoURL": ""}, "scrollbar": "on", "theme": "darkblue", "screenout_desc": "\u4e0d\u597d\u610f\u601d\uff0c\u60a8\u4e0d\u592a\u9002\u5408\u672c\u6b21\u8c03\u67e5\uff0c\u8c22\u8c22\u60a8\u7684\u65f6\u95f4", "panelsite": "101"}, "begin_desc": "\u6b22\u8fce\u53c2\u52a0\u672c\u6b21\u7b54\u9898"};
+$(function(){
+// loadMack({off:'on',Limg:0,text:'加载中...',set:0});
+$('.logicset').click(function(){
+ajax_loads(920,256,'逻辑设置','/edit/ajax/logic_set/543a2e85f7405b41c21c51f0/?v=' + new Date().getTime());
+});
+$('#appearset').click(function(){
+location.href = '/edit/appearset/543a2e85f7405b41c21c51f0/?v=' + new Date().getTime();
+//mapsets(918,600,'外观设置','/edit/appearset/543a2e85f7405b41c21c51f0/?v=' + new Date().getTime());
+});
+$('#ansrest').click(function(){
+ajax_loads(640,380,'收集设置','/edit/ansrest/543a2e85f7405b41c21c51f0/?pre_page=design&v=' + new Date().getTime());
+});
+var new_rspd_count = 0;
+if(new_rspd_count > 0)
+{
+jsAlert({content:"<p style='text-align:left;'>您的问卷已收集0份数据，修改问卷可能影响收集到的数据。如需修改问卷请至问卷列表页，点击设计按钮。</p>", obj: function(){
+window.location.href = "/mysurvey";
+}});
+}
+});
+function ajax_loads(w,h,title,url){
+var wbs = new jsbox({
+onlyid:"maptss",
+title:title,
+conw:w,
+//conh:h,
+FixedTop:170,
+loads:true,
+url:url,
+range:false,
+mack:true
+}).show();
+}
+//弹出框打包配置
+function mapsets(w,h,title,url){
+var wbs = new jsbox({
+onlyid:"maptss",
+title:title,
+conw:w,
+conh:h,
+FixedTop:170,
+iframe:true,
+url:url,
+range:false,
+mack:true
+}).show();
+}
+function ajax_loads(w,h,title,url){
+var wbs = new jsbox({
+onlyid:"maptss",
+title:title,
+conw:w,
+//conh:h,
+FixedTop:170,
+loads:true,
+url:url,
+range:false,
+mack:true
+}).show();
+}
+function close_pop_window(){
+$("#maptss").remove();
+$('#lightBox').remove();
+}
+function flush_after_close_window(){
+$("#maptss").remove();
+$('#lightBox').remove();
+window.location.href = "/edit/survey/543a2e85f7405b41c21c51f0/";
+}
+function publish_proj_confirm(){
+var confirm_popup_win = Object();
+confirm_popup_win.title = "确认发布";
+var content = "是否发布问卷?";
+if(project.share_status == 0 && (project.copy_from_pid==undefined||project.copy_from_pid==null||project.copy_from_pid=='')){
+content += "<br/><label><input style='margin:3px; margin:3px 3px 0 3px;' type='checkbox' checked='checked' id='checkbox_selector'/>共享到模板库</label><i class='tips' title='选中该选项，本问卷经审核合格后会添加到模板库中，供其他会员制作问卷时参考。'></i>";
+}
+confirm_popup_win.content = content;
+confirm_popup_win.obj = publish_proj;
+confirm_popup_win.close_obj = cancle_publish_proj;
+jsConfirm(confirm_popup_win);
+}
+function publish_proj(){
+var proj_id = project._id.$oid;
+$("#change_project_status_form input[name='proj_id']").val(proj_id);
+$("#change_project_status_form input[name='status']").val(1);
+$("#change_project_status_form input[name='is_shared']").val($("#checkbox_selector").attr("checked"));
+ajaxSubmit($("#change_project_status_form"));
+}
+function change_project_status_callback(info){
+loadMack({off:'on',text:'发布中',set:3000});
+setTimeout(function(){
+var panelsite = 'None';
+if(panelsite==3){
+var alert_obj = Object();
+alert_obj.title = "成功信息";
+alert_obj.content = "你的问卷已经成功发布到研修网";
+alert_obj.obj_text = '确定';
+alert_obj.obj = function(){
+var url = "/collect/urllink/543a2e85f7405b41c21c51f0/";
+location.href = url;
+}
+jsAlert(alert_obj);
+}else{
+var url = "/collect/urllink/543a2e85f7405b41c21c51f0/?fp="+info.first_publish;
+location.href = url;
+}
+}, 3000);
+}
+function cancle_publish_proj(){
+}
+var client_uuid = "ca07663a-51e7-11e4-9a15-90b11c535da3";
+//矩阵题宽度调整保存回调
+function matrixWidth_callback(qid,col_width_array,new_question){
+var table_width =0;
+var objPadding = 0;
+update_question(new_question);
+$("li[oid='"+qid+"'] .table tbody tr").each(function(m){
+table_width =0;
+$(this).children("td").each(function(i){
+objPadding=parseFloat($(this).css('paddingLeft'))+parseFloat($(this).css('paddingRight'))+1;
+if(col_width_array[i]==undefined){col_width_array[i]=col_width_array[i-1]};
+$(this).width(col_width_array[i]+"px");
+if(m>0&&i>0){
+if($(this).children(".div").length>0){
+$(this).find(".div").width(col_width_array[i]+"px");
+}else{
+$(this).wrapInner('<div class="div" style="width:'+(col_width_array[i])+'px"></div>');
+}
+}
+table_width+=col_width_array[i]+objPadding;
+});
+});
+$("li[oid='"+qid+"'] .table").width(table_width);
+$(".jsbox_close").click();
+}
+</script>
+<script type="text/javascript" src="./SurveyUI/init.js"></script>
+<script type="text/javascript" src="./SurveyUI/public.js"></script>
+<script type="text/javascript" src="./SurveyUI/modernizr.custom.js"></script>
+<script src="./SurveyUI/enums.js"></script>
+<script src="./SurveyUI/models.js"></script>
+<script src="./SurveyUI/juicer.js"></script>
+<script src="./SurveyUI/survey_utils.js"></script>
+<!--加载提示-->
+<link type="text/css" rel="stylesheet" href="./SurveyUI/load.css">
+<script type="text/javascript" src="./SurveyUI/load.js"></script>
+<!--气泡弹框-->
+<link type="text/css" rel="stylesheet" href="./SurveyUI/JsBubble.css">
+<script type="text/javascript" src="./SurveyUI/JsBubble.js"></script>
+<!--弹出框-->
+<link type="text/css" rel="stylesheet" href="./SurveyUI/jsbox.css">
+<script type="text/javascript" src="./SurveyUI/jsbox.js"></script>
+<!--FCK编辑器-->
+<script type="text/javascript" src="./SurveyUI/ckeditor.js"></script>
+<script src="./SurveyUI/edit.js"></script>
+<script src="./SurveyUI/edit_utils.js"></script>
+<script src="./SurveyUI/edit_init.js"></script>
+<script src="./SurveyUI/q_template.js"></script>
+<script src="./SurveyUI/ssq.js"></script>
+<script type="text/javascript">
+var active_index = 0;
+var found = 0;
+$(".main-nav li a").each(function(){
+if($(this).text() == '问卷')
+found = 1;
+if(found == 0)
+active_index += 1;
+});
+set_active_head1(active_index);
+var first_edit = false;
+if (first_edit){
+//新手帮助
+Help_up();
+}
+// window.onbeforeunload = function(){
+// syncPost('/edit/ajax/exit_edit/'+get_oid(project)+"/", {});
+// }
+</script>
+<!--图片裁剪-->
+<link type="text/css" rel="stylesheet" href="./SurveyUI/Jcrop.css">
+<script type="text/javascript" src="./SurveyUI/Jcrop.js"></script>
+<script type="text/javascript" src="./SurveyUI/demo.min.js"></script>
+<script type="text/javascript" src="./SurveyUI/dmuploader.min.js"></script>
+
+
+
+<div class="footer_w">
+<div class="footer">
+<div class="instructions">
+<div class="ma_auto">
+<div> ©2013 爱调研旗下网站 </div><a href="http://business.idiaoyan.com/" target="_blank"><div class="slogan_min"></div></a><span>用你的观点影响世界</span>
+</div>
+</div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-9592313-3']);
+_gaq.push(['_setDomainName', 'wenjuan.com']);
+_gaq.push(['_setAllowLinker', true]);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script type="text/javascript">
+$(function(){
+$().top_hj();
+$('.username').click(function(){
+if($(".loginMeun:visible").length>0){
+$(this).find('.loginMeun').hide();
+$(this).find('.arrowupt').removeClass('atop');
+}else{
+$(this).find('.loginMeun').show();
+$(this).find('.arrowupt').addClass('atop');
+}
+});
+$(".login_but").click(function(){
+if($(".loginBox:visible").length>0){
+$(".loginBox").fadeOut("slow");
+}else{
+$(".loginBox").fadeIn("slow");
+}
+return false;
+});
+$(".loginBox").mouseup(function(){return false;});
+$('body').mouseup(function(){
+$(".loginBox").fadeOut("slow");
+$('.username').find('.loginMeun').hide();
+$('.username').find('.arrowupt').removeClass('atop');
+});
+$("a img[src='http://eiv.baidu.com/hmt/icon/21.gif']").hide();
+});
+
+$.ajax({
+type: "get",
+url: "/message/check",
+data: "",
+success: function (result) {
+if(result=='True'){
+$('.wjNews').html("<span class='PointRed'></span>");
+}
+}
+});
+
+//快速置顶
+;(function($){$.fn.extend({"top_hj":function(Obj){if(!Obj){Obj={}}var Tinfo={parent:Obj.parent||".Tj",url:Obj.url||"/about/zxzx/"};var Zonw=$(Tinfo.parent).width()+30;$(Tinfo.parent).prepend('<a title="关注问卷网微信" class="top_weixin ie6fixedBR" style="margin-left:'+Zonw+'px" href="javascript:;"></a><a class="top_feedback ie6fixedBR" style="margin-left:'+Zonw+'px" target="_blank" href="'+Tinfo.url+'"></a>');fu_scroll($(window));$(window).scroll(function(){$('.gzweixin').hide();fu_scroll($(this))});$('.top_hj').live('click',function(){$('html,body').animate({scrollTop:0},'slow')});$('.top_weixin').die().live('click',function(){var gzweixin=$('.gzweixin:visible');if(gzweixin.length>0){gzweixin.hide()}else{addGzTip($(this))}return});function fu_scroll(_this){var Zonw=$(Tinfo.parent).width()+30;var scrollT=_this.scrollTop();var bodyH=$('body').height();var winH=_this.height();var scrollB=bodyH-scrollT-winH;if(scrollT>300){var ml=$('.top_hj').length;if(ml==0){$(Tinfo.parent).append('<a title="置顶" class="top_hj ie6fixedBR" style="margin-left:'+Zonw+'px" href="javascript:;"></a>')}}else{$('.top_hj').remove()}if(scrollB<160){$('.top_hj').css({bottom:(281-scrollB)+'px'});$('.top_weixin').css({bottom:(230-scrollB)+'px'});$('.top_feedback').css({bottom:(176-scrollB)+'px'})}else{$('.top_hj').css({bottom:'112px'});$('.top_weixin').css({bottom:'60px'});$('.top_feedback').css({bottom:'5px'})}}function addGzTip(obj){var x=obj.offset().left-160;var y=obj.offset().top-123;var gzweixin=$('gzweixin');if(gzweixin.length>0){gzweixin.css({'top':y+'px','left':x+'px'})}else{var con='<div style="top:'+y+'px;left:'+x+'px;" class="gzweixin"></div>';$('body').append(con)}}}})})(jQuery);
+</script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F805c9a16950cbbec8732e90433c5a9e2' type='text/javascript'%3E%3C/script%3E"));
+$(function(){
+autoheight();
+var resizeTimer1 = null;
+$(window).resize(function(){
+if (resizeTimer1) clearTimeout(resizeTimer1);
+resizeTimer1 = setTimeout("autoheight()", 100);
+});
+});
+function autoheight(){
+if(($(document).height()-$('body').innerHeight())>0){
+$('.footer_w').css('margin-top','0px');
+$('.footer_w').css('margin-top',($(document).height()-$('body').innerHeight())+'px')
+};
+}
+</script><script src="./SurveyUI/h.js" type="text/javascript"></script><a href="http://tongji.baidu.com/hm-web/welcome/ico?s=805c9a16950cbbec8732e90433c5a9e2" target="_blank"><img border="0" src="./SurveyUI/21.gif" width="20" height="20" style="display: none;"></a>
+
+<!--- CheckPoint:e5434731e0d5daab65472cce13db9b24 --->
+
+</body></html>

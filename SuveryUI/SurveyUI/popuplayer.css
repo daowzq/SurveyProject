@@ -1,0 +1,429 @@
+form {
+	margin: 0px;
+}
+.fL {
+	float: left;
+}
+.fR {
+	float: right;
+}
+.WJcontent .smallfontsize {
+	font-size: 16px !important;
+}
+.smallerfontsize {
+	padding: 0.1em 2em !important; font-size: 16px; cursor: progress;
+}
+.mtop {
+	margin-top: 10px;
+}
+.maxtop {
+	margin-top: 20px;
+}
+.mleft {
+	margin-left: 36px;
+}
+.inputborder {
+	padding: 2px; border: 1px solid rgb(119, 165, 180); vertical-align: middle;
+}
+select {
+	padding: 2px; border: 1px solid rgb(119, 165, 180); vertical-align: middle;
+}
+.poplayer select {
+	width: 160px; height: 30px;
+}
+.poplayer {
+	background: rgb(255, 255, 255); padding: 10px 20px;
+}
+.poplayer .WJButton {
+	padding: 0.3em 1em !important;
+}
+.poplayer table {
+	width: 100%;
+}
+.poplayer table tr td input {
+	margin-bottom: 5px;
+}
+.styleselect {
+	width: 255px; position: relative; z-index: 4000;
+}
+.logoupload {
+	width: 200px;
+}
+.answerinput {
+	width: 433px; padding-left: 5px;
+}
+.active {
+	color: rgb(28, 101, 139);
+}
+.spanlh {
+	line-height: 31px;
+}
+.bulkadd {
+	border: 1px solid rgb(119, 165, 180); width: 443px; height: 258px; resize: none;
+}
+.postiondiv {
+	width: 100%; display: inline-block; position: relative;
+}
+.postionbtn {
+	right: 0px; position: absolute;
+}
+.fR {
+	float: right;
+}
+.fL {
+	float: left;
+}
+.alignr {
+	text-align: right;
+}
+.reduce {
+	background: url("../images/wjsj_toolico.png") no-repeat -80px -218px; width: 19px; height: 22px; margin-top: 5px; margin-right: 4px; vertical-align: middle; float: left;
+}
+.trActive .reduce {
+	float: right;
+}
+.textgray {
+	color: rgb(133, 133, 133);
+}
+.file-box {
+	padding: 5px 0px; margin-top: 5px; position: relative;
+}
+.txt {
+	border: 1px solid rgb(205, 205, 205); width: 180px; height: 22px;
+}
+.uploadimg {
+	left: 0px; top: 0px; display: none; position: absolute;
+}
+.uploadbtn {
+	border: 1px solid rgb(119, 165, 180); width: 110px; height: 25px; cursor: pointer; background-color: rgb(255, 255, 255);
+}
+.file {
+	left: 0px; top: 0px; width: 110px; height: 24px; filter: alpha(opacity:0); position: absolute; opacity: 0;
+}
+.surveypreview {
+	margin: 0px auto; width: 804px; overflow: hidden; position: relative;
+}
+.motallayer {
+	left: 0px; top: 0px; width: 100%; height: 393px; display: none; filter: alpha(opacity=10); position: absolute; opacity: 0.1; background-color: rgb(204, 204, 205);
+}
+.totallogicset select {
+	width: 235px;
+}
+.disableselect {
+	border: 1px solid rgb(223, 223, 223); color: rgb(201, 201, 201);
+}
+.ans table td {
+	color: rgb(133, 133, 133); padding-top: 6px;
+}
+.ans table caption {
+	text-align: left;
+}
+.numberinput {
+	width: 35px; margin-right: 5px; margin-left: 5px !important;
+}
+.timeinput {
+	width: 100px; margin-left: 1px !important;
+}
+#time_tip {
+	margin-left: -15px;
+}
+.textinput {
+	width: 50px; margin-left: 1px !important;
+}
+.perfect {
+	background: rgb(253, 249, 205); padding: 1px 1px 1px 8px; border: 1px solid rgb(219, 219, 219); color: rgb(130, 130, 130); line-height: 20px; margin-left: 15px; display: inline-block;
+}
+.enable input {
+	width: 110px; margin-left: 5px !important;
+}
+.add-div {
+	padding: 4px 0px 4px 5px; border: 1px solid rgb(119, 165, 180); left: 65px; top: 0px; width: 120px; height: 21px; color: rgb(128, 128, 128); position: absolute; cursor: pointer; background-color: rgb(255, 255, 255);
+}
+.addtoaddress {
+	vertical-align: middle;
+}
+.addressselect label {
+	vertical-align: middle;
+}
+.colordiv {
+	display: inline-block;
+}
+.colordiv .colorname {
+	width: 42px; text-align: center; margin-top: -20px; margin-left: 35px;
+}
+.hide {
+	display: none;
+}
+.add-div .arrowup {
+	margin: 8px 0px 0px 50px; padding: 0px 0px 0px 5px; width: 10px; font-size: 30px !important; vertical-align: middle; border-bottom-color: currentColor !important; border-bottom-width: medium !important; border-bottom-style: none !important; display: inline-block; z-index: 1000;
+}
+.styleselect .add-div {
+	width: 100px;
+}
+.styleselect .add-div .arrowup {
+	margin: 0px 0px 0px 5px; padding: 0px 0px 0px 5px; width: 10px; font-size: 30px !important; vertical-align: middle; border-bottom-color: currentColor !important; border-bottom-width: medium !important; border-bottom-style: none !important; z-index: 1000;
+}
+.arrowupt {
+	border-width: 5px 5px 0px; border-style: solid dashed dashed; border-color: rgb(157, 157, 157) transparent transparent; font: 0px/9999px serif; padding: 0px !important; width: 0px; height: 0px; color: inherit; overflow: hidden; z-index: 1; font-size-adjust: none; font-stretch: normal;
+}
+.color_box {
+	border: 1px solid rgb(153, 153, 155); width: 19px; height: 19px;
+}
+.boxborder {
+	border: 1px solid rgb(119, 165, 180);
+}
+.default {
+	left: 64px; top: 33px; width: 132px; border-top-color: rgb(219, 219, 219); border-right-color: rgb(219, 219, 219); border-left-color: rgb(219, 219, 219); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; display: none; position: absolute; z-index: 4000; background-color: rgb(255, 255, 255);
+}
+.default li {
+	padding: 6px 6px 3px; border-bottom-color: rgb(219, 219, 219); border-bottom-width: 1px; border-bottom-style: solid; float: left; display: inline; cursor: pointer;
+}
+.default li:hover {
+	color: rgb(28, 107, 133);
+}
+.progress {
+	margin: 8px 0px 0px; float: left;
+}
+.Serial {
+	margin: 8px 0px 0px; float: left;
+}
+.content {
+	background: rgb(255, 255, 255); margin: 0px auto; padding: 20px 40px 30px; border: 4px solid rgb(219, 219, 219);
+}
+.wjlogo {
+	border: 1px dashed rgb(219, 219, 219); width: 160px; height: 70px;
+}
+.wjtitle h3 {
+	text-align: center; color: rgb(76, 76, 76);
+}
+.wjintro p {
+	text-align: center;
+}
+.wjerror p {
+	text-align: center; color: red;
+}
+.wjques div {
+	margin-bottom: 5px;
+}
+.wjques label {
+	margin-bottom: 5px; display: block;
+}
+.radio {
+	padding-left: 10px; vertical-align: bottom; min-height: 20px;
+}
+.checkbox {
+	padding-left: 10px; vertical-align: bottom; min-height: 20px;
+}
+.progress .checkbox {
+	padding-right: 10px; padding-left: 0px; vertical-align: middle;
+}
+.Serial .checkbox {
+	padding-right: 10px; padding-left: 0px; vertical-align: middle;
+}
+.radio input[type='radio'] {
+	margin-left: -20px; float: left;
+}
+.checkbox input[type='checkbox'] {
+	margin-left: -20px; float: left;
+}
+input[type='radio'] {
+	margin: 1px 0px 0px; line-height: normal; cursor: pointer;
+}
+input[type='checkbox'] {
+	margin: 1px 0px 0px; line-height: normal; cursor: pointer;
+}
+.wjtable {
+	width: 550px; text-align: center; border-top-color: rgb(219, 219, 219); border-left-color: rgb(219, 219, 219); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid;
+}
+.wjtable tr td {
+	border-right-color: rgb(219, 219, 219); border-bottom-color: rgb(219, 219, 219); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.layercolor_form input {
+	margin: 3px 0px 0px 9px;
+}
+.wj_color {
+	background: rgb(204, 204, 205); color: rgb(243, 243, 243);
+}
+.wj_color:hover {
+	background: rgb(112, 112, 112);
+}
+.wj_color:active {
+	color: rgb(153, 153, 153);
+}
+.btns {
+	height: 30px;
+}
+.wjprogress {
+	width: 210px; text-align: center; float: right;
+}
+.bar {
+	border: 1px solid rgb(219, 219, 219); width: 208px; height: 7px; text-align: left;
+}
+.barbox {
+	width: 20%; height: 7px; background-color: rgb(204, 204, 205);
+}
+.wjhr {
+	width: 100%; height: 3px; background-color: rgb(204, 204, 205);
+}
+.color_black {
+	background-color: rgb(153, 153, 154);
+}
+.color_darkblue {
+	background-color: rgb(85, 161, 227);
+}
+.color_blue {
+	background-color: rgb(115, 210, 230);
+}
+.color_pink {
+	background-color: rgb(226, 1, 123);
+}
+.color_gray {
+	background-color: rgb(204, 204, 205);
+}
+.color_green {
+	background-color: rgb(0, 204, 203);
+}
+.color_orange {
+	background-color: rgb(242, 148, 0);
+}
+.color_red {
+	background-color: rgb(255, 127, 102);
+}
+#color_black {
+	background-color: rgb(153, 153, 154);
+}
+#color_darkblue {
+	background-color: rgb(85, 161, 227);
+}
+#color_blue {
+	background-color: rgb(115, 210, 230);
+}
+#color_pink {
+	background-color: rgb(226, 1, 123);
+}
+#color_gray {
+	background-color: rgb(204, 204, 205);
+}
+#color_green {
+	background-color: rgb(0, 204, 203);
+}
+#color_orange {
+	background-color: rgb(242, 148, 0);
+}
+#color_red {
+	background-color: rgb(255, 127, 102);
+}
+#color_black_progress .bar {
+	border-color: rgb(153, 153, 154);
+}
+#color_darkblue_progress .bar {
+	border-color: rgb(85, 161, 227);
+}
+#color_blue_progress .bar {
+	border-color: rgb(115, 210, 230);
+}
+#color_pink_progress .bar {
+	border-color: rgb(226, 1, 123);
+}
+#color_gray_progress .bar {
+	border-color: rgb(204, 204, 205);
+}
+#color_green_progress .bar {
+	border-color: rgb(0, 204, 203);
+}
+#color_orange_progress .bar {
+	border-color: rgb(242, 148, 0);
+}
+#color_red_progress .bar {
+	border-color: rgb(255, 127, 102);
+}
+#color_black_progress span {
+	color: rgb(153, 153, 154);
+}
+#color_darkblue_progress span {
+	color: rgb(85, 161, 227);
+}
+#color_blue_progress span {
+	color: rgb(115, 210, 230);
+}
+#color_pink_progress span {
+	color: rgb(226, 1, 123);
+}
+#color_gray_progress span {
+	color: rgb(204, 204, 205);
+}
+#color_green_progress span {
+	color: rgb(0, 204, 203);
+}
+#color_orange_progress span {
+	color: rgb(242, 148, 0);
+}
+#color_red_progress span {
+	color: rgb(255, 127, 102);
+}
+.mtop_d {
+	border: 1px solid rgb(204, 204, 204); width: 445px; height: 145px; overflow: hidden; margin-top: 20px;
+}
+#Add_quote {
+	margin-top: -10px;
+}
+.options_tip {
+	padding: 0px 5px; color: red; font-size: 12px;
+}
+#time_tip {
+	margin-left: -15px;
+}
+.poplayer ul li {
+	padding-bottom: 5px;
+}
+#jump_table td {
+	padding: 2px 0px;
+}
+.editTcc {
+	width: 100%; height: 37px; right: 0px; bottom: 0px; border-top-color: rgb(198, 198, 198); border-top-width: 1px; border-top-style: solid; position: absolute; z-index: 99999; background-color: rgb(238, 238, 238);
+}
+.editTcc .editTcc_an {
+	font-size: 14px;
+}
+.editTcc_an {
+	margin: 5px 15px 0px 0px; float: right;
+}
+.poplayer input[type='radio'] {
+	margin: 4px 0px 0px !important;
+}
+.poplayer input[type='checkbox'] {
+	margin: 4px 0px 0px !important;
+}
+.min_zs {
+	padding: 0px 0px 0px 5px; color: rgb(153, 153, 153); font-size: 12px;
+}
+.FontSet {
+	width: 320px; float: right; position: relative; z-index: 1000;
+}
+.FontSetCon {
+	margin-top: 5px; float: left; display: none; position: relative;
+}
+.styleSelect {
+	left: 97px; top: 0px; height: 26px !important; position: absolute;
+}
+.FontSet h3 {
+	padding: 0px 0px 5px; width: 100%; color: rgb(28, 101, 139); line-height: 24px; font-size: 14px; float: left;
+}
+.cke_panel_block {
+	background: 0px 0px rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(182, 182, 182) rgb(182, 182, 182) rgb(153, 153, 153); border-radius: 3px; top: 70px; width: 200px; height: 200px; position: absolute; z-index: 10005; overflow-x: hidden; overflow-y: auto; box-shadow: 0px 0px 3px rgba(0,0,0,0.15); border-image: none;
+}
+.cke_button .cke_button_icon {
+	background-image: url("../images/icons.png");
+}
+.cke_panel_block {
+	display: none;
+}
+.cke_combo__font .cke_combo_text {
+	overflow: hidden; white-space: nowrap; text-overflow: ellipsis; max-width: 60px;
+}
+.color_t {
+	background: rgb(0, 0, 0); top: 20px; width: 17px; height: 2px; position: absolute;
+}
+.layercolor_form input {
+	left: -35px; margin-top: 5px; position: absolute; cursor: pointer;
+}

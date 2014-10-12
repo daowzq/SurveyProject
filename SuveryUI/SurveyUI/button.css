@@ -1,0 +1,99 @@
+.button {
+	margin: 0px 2px; padding: 0.5em 2em 0.55em; border-radius: 0.5em; text-align: center; font-weight: bold; text-decoration: none; vertical-align: baseline; display: inline-block; cursor: pointer; zoom: 1; box-shadow: 0px 1px 2px rgba(0,0,0,0.2); -webkit-border-radius: .5em; -moz-border-radius: .5em; -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2); -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2); text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	top: 1px; position: relative;
+}
+.bigrounded {
+	border-radius: 2em; -webkit-border-radius: 2em; -moz-border-radius: 2em;
+}
+.medium {
+	padding: 0.4em 1.5em 0.42em; font-size: 12px;
+}
+.small {
+	padding: 0.2em 1em 0.27em; font-size: 11px;
+}
+.black {
+	background: rgb(51, 51, 51); border: 1px solid rgb(51, 51, 51); color: rgb(215, 215, 215); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+}
+.black:hover {
+	background: rgb(0, 0, 0); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
+}
+.black:active {
+	color: rgb(102, 102, 102); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#666666');
+}
+.gray {
+	background: rgb(110, 110, 110); border: 1px solid rgb(85, 85, 85); color: rgb(255, 255, 255); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#575757');
+}
+.gray:hover {
+	background: rgb(97, 97, 97); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#757575', endColorstr='#4b4b4b');
+}
+.gray:active {
+	color: rgb(175, 175, 175); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#575757', endColorstr='#888888');
+}
+.white {
+	background: rgb(255, 255, 255); border: 1px solid rgb(183, 183, 183); color: rgb(96, 96, 96); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+.white:hover {
+	background: rgb(237, 237, 237); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+.white:active {
+	color: rgb(153, 153, 153); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+.orange {
+	background: rgb(247, 141, 29); border: 1px solid rgb(218, 124, 12); color: rgb(254, 244, 233); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.orange:hover {
+	background: rgb(244, 124, 32); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.orange:active {
+	color: rgb(252, 211, 165); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+.red {
+	background: rgb(216, 27, 33); border: 1px solid rgb(152, 12, 16); color: rgb(247, 247, 247); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#c9292d');
+}
+.red:hover {
+	background: rgb(182, 19, 24); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115');
+}
+.red:active {
+	color: rgb(222, 137, 140); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24');
+}
+.blue {
+	background: rgb(0, 149, 205); border: 1px solid rgb(0, 118, 163); color: rgb(247, 247, 247); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1198e4', endColorstr='#0a78c2');
+}
+.blue:hover {
+	background: rgb(0, 126, 173); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.blue:active {
+	color: rgb(128, 190, 214); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+.rosy {
+	background: rgb(218, 88, 103); border: 1px solid rgb(183, 57, 72); color: rgb(250, 231, 233); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f16c7c', endColorstr='#bf404f');
+}
+.rosy:hover {
+	background: rgb(186, 75, 88); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cf5d6a', endColorstr='#a53845');
+}
+.rosy:active {
+	color: rgb(220, 164, 171); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bf404f', endColorstr='#f16c7c');
+}
+.green {
+	background: rgb(100, 153, 30); border: 1px solid rgb(83, 131, 18); color: rgb(247, 247, 247); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6fb420', endColorstr='#51930d');
+}
+.green:hover {
+	background: rgb(83, 128, 24); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b9d28', endColorstr='#436b0c');
+}
+.green:active {
+	color: rgb(169, 192, 140); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4e7d0e', endColorstr='#7db72f');
+}
+.pink {
+	background: rgb(248, 149, 194); border: 1px solid rgb(210, 114, 158); color: rgb(254, 238, 245); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#feb1d3', endColorstr='#f171ab');
+}
+.pink:hover {
+	background: rgb(213, 126, 165); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4aacb', endColorstr='#e86ca4');
+}
+.pink:active {
+	color: rgb(243, 195, 217); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f171ab', endColorstr='#feb1d3');
+}
